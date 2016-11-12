@@ -236,7 +236,33 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         private void RotateView()
         {
-            m_MouseLook.LookRotation (transform, m_Camera.transform);
+            //Old code
+            //m_MouseLook.LookRotation (transform, m_Camera.transform);
+
+            //Handle mouse and controller inputs for camera
+            float camMouseH = CrossPlatformInputManager.GetAxis("Mouse X");
+            float camMouseV = -1 * CrossPlatformInputManager.GetAxis("Mouse Y");
+
+            float camControllerH = CrossPlatformInputManager.GetAxis("CamH");
+            float camControllerV = CrossPlatformInputManager.GetAxis("CamV");
+
+            float camH = (camMouseH == 0 && camMouseV == 0) ? camControllerH : camMouseH;
+            float camV = (camMouseH == 0 && camMouseV == 0) ? camControllerV : camMouseV;
+
+            float xRot = 0;
+
+            transform.Rotate(0, camH, 0);
+            xRot = m_Camera.transform.localRotation.eulerAngles.x + camV;
+            xRot = (xRot < 0) 
+                   ? 360 + xRot 
+                   : (xRot > 360) 
+                     ? xRot - 360 
+                     : xRot;
+
+            if ((xRot >= 0 && xRot <= 90) || (xRot >= 270 && xRot <= 360))
+            {
+                m_Camera.transform.Rotate(camV, 0, 0);
+            }
         }
 
 

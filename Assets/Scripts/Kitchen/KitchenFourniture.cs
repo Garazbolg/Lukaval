@@ -1,5 +1,5 @@
-#using System;
-#using UnityEngine;
+using System;
+using UnityEngine;
 
 public class KitchenFourniture : MonoBehaviour
 {
@@ -26,11 +26,11 @@ public class KitchenFourniture : MonoBehaviour
     
     #endregion
     
-    private currentTime = 0f;
+    private float currentTime = 0f;
     
     void Start()
     {
-        currentTime = Random.Range(0.0f,closedTime);
+        currentTime = UnityEngine.Random.Range(0.0f,closedTime);
         startPosition = transform.position;
         startRotation = transform.rotation;
     }

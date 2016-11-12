@@ -10,7 +10,7 @@ public class KnifeWall : MonoBehaviour{
 		transform.position += transform.forward.normalized * speed * Time.deltaTime;
 	}
 
-	void OnTriggerEnter(Collider){
+	void OnTriggerEnter(Collider other){
 		Debug.Log("Dead");
 	}
 }

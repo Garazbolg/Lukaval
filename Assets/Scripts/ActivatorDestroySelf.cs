@@ -1,8 +1,9 @@
 using System;
 using UnityEngine;
 
-public class ActivatorDestroySelf : Activator{
-	private override void OnActivate(){
+public class ActivatorDestroySelf : GameActivator
+{
+	public override void OnActivate(){
 		base.OnActivate();
 		DestroyImmediate(gameObject);
 	}

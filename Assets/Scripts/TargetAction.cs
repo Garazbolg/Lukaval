@@ -15,9 +15,9 @@ public class TargetAction : MonoBehaviour{
 
 	void Update(){
 		RaycastHit hit;
-		if(Physics.Raycast(playerCam.ScreenToWorldPoint(new Vector3(Screen.width/2,Screen.heigth/2,playerCam.nearClipPlane)),playerCam.transform.forward,out hit,range,mask)){
+		if(Physics.Raycast(playerCam.ScreenToWorldPoint(new Vector3(Screen.width/2,Screen.height/2,playerCam.nearClipPlane)),playerCam.transform.forward,out hit,range,mask)){
 			if(Input.GetButtonDown("Action")){
-				Activator act = hit.collider.GetComponent<Activator>();
+                GameActivator act = hit.collider.GetComponent<GameActivator>();
 				if(act)
 					act.Activate();
 			}

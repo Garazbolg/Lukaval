@@ -1,0 +1,143 @@
+fileFormatVersion: 2
+guid: 1ce4fd58e1a6d6949bf5017ebcd25bc8
+timeCreated: 1478964278
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: banquette2_siege_D
+    100002: barres1
+    100004: barres_verticales
+    100006: carlingue1
+    100008: contour_metal
+    100010: light
+    100012: //RootNode
+    100014: montan_light
+    100016: polySurface238
+    100018: polySurface277
+    100020: polySurface289_porte_avt
+    100022: polySurface291_porte_arr
+    100024: porte_arr_polySurface292
+    100026: porte_avt_polySurface290
+    100028: strap
+    400000: banquette2_siege_D
+    400002: barres1
+    400004: barres_verticales
+    400006: carlingue1
+    400008: contour_metal
+    400010: light
+    400012: //RootNode
+    400014: montan_light
+    400016: polySurface238
+    400018: polySurface277
+    400020: polySurface289_porte_avt
+    400022: polySurface291_porte_arr
+    400024: porte_arr_polySurface292
+    400026: porte_avt_polySurface290
+    400028: strap
+    2300000: banquette2_siege_D
+    2300002: barres1
+    2300004: barres_verticales
+    2300006: carlingue1
+    2300008: contour_metal
+    2300010: light
+    2300012: montan_light
+    2300014: polySurface238
+    2300016: polySurface277
+    2300018: polySurface289_porte_avt
+    2300020: polySurface291_porte_arr
+    2300022: porte_arr_polySurface292
+    2300024: porte_avt_polySurface290
+    2300026: strap
+    3300000: banquette2_siege_D
+    3300002: barres1
+    3300004: barres_verticales
+    3300006: carlingue1
+    3300008: contour_metal
+    3300010: light
+    3300012: montan_light
+    3300014: polySurface238
+    3300016: polySurface277
+    3300018: polySurface289_porte_avt
+    3300020: polySurface291_porte_arr
+    3300022: porte_arr_polySurface292
+    3300024: porte_avt_polySurface290
+    3300026: strap
+    4300000: banquette2_siege_D
+    4300002: barres1
+    4300004: barres_verticales
+    4300006: carlingue1
+    4300008: contour_metal
+    4300010: light
+    4300012: montan_light
+    4300014: polySurface238
+    4300016: polySurface277
+    4300018: polySurface289_porte_avt
+    4300020: polySurface291_porte_arr
+    4300022: porte_arr_polySurface292
+    4300024: porte_avt_polySurface290
+    4300026: strap
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

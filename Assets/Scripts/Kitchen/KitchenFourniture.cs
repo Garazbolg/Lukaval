@@ -18,46 +18,48 @@ public class KitchenFourniture : MonoBehaviour
     #region TargetTransform
     
         public Vector3 targetPosition;
-        public Quaternion targetRotation;
+        public Vector3 TargetRotation;
+        private Quaternion targetRotation;
         // TargetScale ?
         
-        public Vector3 startPosition;
-        public Quaternion startRotation;
+        private Vector3 startPosition;
+        private Quaternion startRotation;
     
     #endregion
     
-    private float currentTime = 0f;
+    public float currentTime = 0f;
     
     void Start()
     {
         currentTime = UnityEngine.Random.Range(0.0f,closedTime);
-        startPosition = transform.position;
-        startRotation = transform.rotation;
+        startPosition = transform.localPosition;
+        startRotation = transform.localRotation;
+        targetRotation = Quaternion.Euler(TargetRotation);
     }
     
     void Update(){
         currentTime += Time.deltaTime;
         currentTime -= (int)(currentTime/(closedTime + openingTime + openTime + closingTime))*(closedTime + openingTime + openTime + closingTime);
         if(currentTime<closedTime){
-            transform.position = startPosition;
-            transform.rotation = startRotation;
+            transform.localPosition = startPosition;
+            transform.localRotation = startRotation;
         }
-        else if(currentTime < closedTime + openingTime){
-            transform.position = Vector3.Lerp(startPosition,targetPosition,(currentTime-closedTime)/openingTime);
-            transform.rotation = Quaternion.Slerp(startRotation,targetRotation,(currentTime-closedTime)/openingTime);
+        else if(currentTime < (closedTime + openingTime)){
+            transform.localPosition = Vector3.Lerp(startPosition,targetPosition,(currentTime-closedTime)/openingTime);
+            transform.localRotation = Quaternion.Slerp(startRotation,targetRotation,(currentTime-closedTime)/openingTime);
         }
-        else if(currentTime < closedTime + openingTime + openTime){
-            transform.position = targetPosition;
-            transform.rotation = targetRotation;
+        else if(currentTime < (closedTime + openingTime + openTime)){
+            transform.localPosition = targetPosition;
+            transform.localRotation = targetRotation;
         }
         else{
-            transform.position = Vector3.Lerp(targetPosition,startPosition,(currentTime-closedTime-openingTime-openTime)/closingTime);
-            transform.rotation = Quaternion.Slerp(targetRotation,startRotation,(currentTime-closedTime-openingTime-openTime)/closingTime);
+            transform.localPosition = Vector3.Lerp(targetPosition,startPosition,(currentTime-closedTime-openingTime-openTime)/closingTime);
+            transform.localRotation = Quaternion.Slerp(targetRotation,startRotation,(currentTime-closedTime-openingTime-openTime)/closingTime);
         }
     }
     
     public void Reset(){
-     transform.position = startPosition;
-     transform.rotation = startRotation;
+     transform.localPosition = startPosition;
+     transform.localRotation = startRotation;
     }
 }

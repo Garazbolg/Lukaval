@@ -14,6 +14,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private float m_WalkSpeed;
         [SerializeField] private float m_RunSpeed;
         [SerializeField] [Range(0f, 1f)] private float m_RunstepLenghten;
+        [SerializeField] private bool m_UseJump = true;
         [SerializeField] private float m_JumpSpeed;
         [SerializeField] private float m_StickToGroundForce;
         [SerializeField] private float m_GravityMultiplier;
@@ -27,6 +28,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [SerializeField] private AudioClip[] m_FootstepSounds;    // an array of footstep sounds that will be randomly selected from.
         [SerializeField] private AudioClip m_JumpSound;           // the sound played when character leaves the ground.
         [SerializeField] private AudioClip m_LandSound;           // the sound played when character touches back on ground.
+        [SerializeField] [Range(1f, float.PositiveInfinity)] private float m_ControllerCamSpeed = 2;
 
         private Camera m_Camera;
         private bool m_Jump;
@@ -115,7 +117,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
                 if (m_Jump)
                 {
-                    m_MoveDir.y = m_JumpSpeed;
+                    m_MoveDir.y = (m_UseJump) ? m_JumpSpeed : 0;
                     PlayJumpSound();
                     m_Jump = false;
                     m_Jumping = true;
@@ -246,8 +248,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             float camControllerH = CrossPlatformInputManager.GetAxis("CamH");
             float camControllerV = CrossPlatformInputManager.GetAxis("CamV");
 
-            float camH = (camMouseH == 0 && camMouseV == 0) ? camControllerH : camMouseH;
-            float camV = (camMouseH == 0 && camMouseV == 0) ? camControllerV : camMouseV;
+            float camH = (camMouseH == 0 && camMouseV == 0) ? m_ControllerCamSpeed * camControllerH : camMouseH;
+            float camV = (camMouseH == 0 && camMouseV == 0) ? m_ControllerCamSpeed * camControllerV : camMouseV;
 
             float xRot = 0;
 

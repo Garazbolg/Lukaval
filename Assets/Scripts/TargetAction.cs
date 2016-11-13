@@ -5,8 +5,9 @@ public class TargetAction : MonoBehaviour{
 	private Camera playerCam;
     private LayerMask mask;
 
+    public GameObject pausePrefab;
 
-	public float range = 2;
+    public float range = 2;
 	//public GameObject interactUI;
 
     private Renderer lastRenderer = null;
@@ -20,6 +21,11 @@ public class TargetAction : MonoBehaviour{
     }
 
 	void Update(){
+        if (Input.GetButtonDown("Pause") && Time.timeScale > 0.5)
+        {
+            Instantiate(pausePrefab);
+        }
+
 		RaycastHit hit;
 		if(Physics.Raycast(playerCam.ScreenToWorldPoint(new Vector3(Screen.width/2,Screen.height/2,playerCam.nearClipPlane)),playerCam.transform.forward,out hit,range,mask) && hit.collider.GetComponent<GameActivator>())
         {

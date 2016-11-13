@@ -15,14 +15,17 @@ public class KnifeWall : MonoBehaviour{
         {
             kf.Reset();
         }
-		knifes = GetComponentsInChildren<Transform>();
+		knifes = GetComponentsInChildren<Transform>(true);
+        for (int i = 1; i < knifes.Length; i++)
+            knifes[i].gameObject.SetActive(true);
+
     }
 
 	void Update(){
 		transform.position += transform.forward.normalized * speed * Time.deltaTime;
 
 		for(int i = 1 ; i < knifes.Length;i++){
-			knifes[i].Rotate(Vector3.right,knifeSpeed * Time.deltaTime,Space.Self);
+			knifes[i].Rotate(Vector3.forward,knifeSpeed * Time.deltaTime,Space.Self);
 		}
 	}
 

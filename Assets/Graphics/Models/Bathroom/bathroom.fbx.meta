@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: 8b04d0a7b38510e45b4168f6d576c28e
+timeCreated: 1479065132
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bouchon
+    100004: coin_miroir
+    100006: lavabo
+    100008: miroir
+    100010: miroir 1
+    100012: Murs
+    100014: ouverture_1
+    100016: ouveture_2
+    100018: plafond
+    100020: robinet
+    100022: salle
+    100024: siphon
+    100026: Sol
+    100028: "s\xE8che"
+    100030: top
+    100032: "\xE9vier"
+    400000: //RootNode
+    400002: Bouchon
+    400004: coin_miroir
+    400006: lavabo
+    400008: miroir
+    400010: miroir 1
+    400012: Murs
+    400014: ouverture_1
+    400016: ouveture_2
+    400018: plafond
+    400020: robinet
+    400022: salle
+    400024: siphon
+    400026: Sol
+    400028: "s\xE8che"
+    400030: top
+    400032: "\xE9vier"
+    2300000: coin_miroir
+    2300002: miroir 1
+    2300004: Murs
+    2300006: ouverture_1
+    2300008: ouveture_2
+    2300010: plafond
+    2300012: robinet
+    2300014: siphon
+    2300016: Sol
+    2300018: "s\xE8che"
+    2300020: top
+    2300022: "\xE9vier"
+    3300000: coin_miroir
+    3300002: miroir 1
+    3300004: Murs
+    3300006: ouverture_1
+    3300008: ouveture_2
+    3300010: plafond
+    3300012: robinet
+    3300014: siphon
+    3300016: Sol
+    3300018: "s\xE8che"
+    3300020: top
+    3300022: "\xE9vier"
+    4300000: miroir
+    4300002: coin_miroir
+    4300004: Sol
+    4300006: plafond
+    4300008: Murs
+    4300010: ouveture_2
+    4300012: top
+    4300014: siphon
+    4300016: "\xE9vier"
+    4300018: robinet
+    4300020: ouverture_1
+    4300022: "s\xE8che"
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

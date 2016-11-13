@@ -27,7 +27,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1000010816651838
 GameObject:
@@ -55,7 +55,6 @@ GameObject:
   - 33: {fileID: 33000012720041796}
   - 23: {fileID: 23000010125565180}
   - 65: {fileID: 65000012953382562}
-  - 114: {fileID: 114000012231229310}
   m_Layer: 0
   m_Name: default
   m_TagString: Untagged
@@ -142,7 +141,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1000013249701942}
   m_LocalRotation: {x: -0, y: -0.7068071, z: -0, w: 0.7074064}
-  m_LocalPosition: {x: -10.1615715, y: -4.5913563, z: -44.373432}
+  m_LocalPosition: {x: -69.96159, y: -4.5913563, z: -44.373432}
   m_LocalScale: {x: 4.289726, y: 4.2897234, z: 4.289724}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -276,22 +275,4 @@ MonoBehaviour:
   closingTime: 0.5
   targetPosition: {x: -0.98, y: 0.25, z: 0.98}
   TargetRotation: {x: 0, y: 88.54, z: 0}
-  currentTime: 0
---- !u!114 &114000012231229310
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1000011428917342}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b074e7484b92c2b4fa7b7aa743b47200, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  closedTime: 3
-  openTime: 2
-  openingTime: 0.5
-  closingTime: 0.5
-  targetPosition: {x: 0, y: 0, z: 0}
-  TargetRotation: {x: 0, y: 0, z: 0}
-  currentTime: 0
+  soundName: Cuisine_Drawer

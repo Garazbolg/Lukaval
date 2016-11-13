@@ -16,9 +16,33 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{6AF1B377-6470-40DA-BBEE-8BD6C6AFD515}'
-    m_lastTimePsrt1: 1806927616
-    m_lastTimePart2: -1999369444
+    m_lastTimePsrt1: 1876538353
+    m_lastTimePart2: -1999369360
     List:
+    - Name: Cuisine_Door_Close
+      Path: Default Work Unit\Cuisine\Cuisine_Door_Close
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Cuisine
+        ObjectType: 4
+      - ElementName: Cuisine_Door_Close
+        ObjectType: 3
+      ID: 129264565
+      Guid: 77d64de518bc68419a7f4dde9f6da7e8
+      maxAttenuation: 0
+    - Name: Cuisine_Door_Open
+      Path: Default Work Unit\Cuisine\Cuisine_Door_Open
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Cuisine
+        ObjectType: 4
+      - ElementName: Cuisine_Door_Open
+        ObjectType: 3
+      ID: 1596780639
+      Guid: 1b16ae6364f1f94e8014f0ee8cb66a5c
+      maxAttenuation: 0
     - Name: Cuisine_Drawer
       Path: Default Work Unit\Cuisine\Cuisine_Drawer
       PathAndIcons:
@@ -91,6 +115,66 @@ MonoBehaviour:
       ID: -755341511
       Guid: 02aa1c7ae5530f438db998399d03c6ab
       maxAttenuation: 0
+    - Name: Grenier_Door_Close
+      Path: Default Work Unit\Grenier\Grenier_Door_Close
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Grenier
+        ObjectType: 4
+      - ElementName: Grenier_Door_Close
+        ObjectType: 3
+      ID: -1997256539
+      Guid: da380f8979b85544b8ae8c3ed625c96e
+      maxAttenuation: 0
+    - Name: Grenier_Door_Open
+      Path: Default Work Unit\Grenier\Grenier_Door_Open
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Grenier
+        ObjectType: 4
+      - ElementName: Grenier_Door_Open
+        ObjectType: 3
+      ID: 654163887
+      Guid: d6008ded8679ce4fba31b51af85848f5
+      maxAttenuation: 0
+    - Name: Interogatoire_Door_Close
+      Path: Default Work Unit\Interogatoire\Interogatoire_Door_Close
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Interogatoire
+        ObjectType: 4
+      - ElementName: Interogatoire_Door_Close
+        ObjectType: 3
+      ID: -1736088905
+      Guid: aa4983cdd11d26439dd312c447e5b54d
+      maxAttenuation: 0
+    - Name: Interogatoire_Door_Open
+      Path: Default Work Unit\Interogatoire\Interogatoire_Door_Open
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Interogatoire
+        ObjectType: 4
+      - ElementName: Interogatoire_Door_Open
+        ObjectType: 3
+      ID: 1445134593
+      Guid: e5f237180b3d3e43b1ec77d098743958
+      maxAttenuation: 0
+    - Name: Interogatoire_Fan
+      Path: Default Work Unit\Interogatoire\Interogatoire_Fan
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Interogatoire
+        ObjectType: 4
+      - ElementName: Interogatoire_Fan
+        ObjectType: 3
+      ID: -2060254771
+      Guid: 28d92ef81e50db418444cd6c49b12cec
+      maxAttenuation: 0
     - Name: Metro
       Path: Default Work Unit\Metro\Metro
       PathAndIcons:
@@ -127,6 +211,18 @@ MonoBehaviour:
       ID: 245165734
       Guid: b36cea225cd0e54aa590d2e94645e946
       maxAttenuation: 0
+    - Name: Metro_Door_Open_Out
+      Path: Default Work Unit\Metro\Metro_Door_Open_Out
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Metro
+        ObjectType: 4
+      - ElementName: Metro_Door_Open_Out
+        ObjectType: 3
+      ID: 1637147123
+      Guid: 9bbe89b7088a874dade0928e4a467a8b
+      maxAttenuation: 0
     - Name: Metro_Flicker
       Path: Default Work Unit\Metro\Metro_Flicker
       PathAndIcons:
@@ -150,6 +246,16 @@ MonoBehaviour:
         ObjectType: 3
       ID: -1331956563
       Guid: 110b3d5f60cee44fab16d7f9b78af7da
+      maxAttenuation: 0
+    - Name: Pick_Up
+      Path: Default Work Unit\Pick_Up
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Pick_Up
+        ObjectType: 3
+      ID: 467838998
+      Guid: 92ad8925b0391f498515f306dec3c620
       maxAttenuation: 0
     - Name: Room_Ambiance1
       Path: Default Work Unit\Room\Room_Ambiance1
@@ -221,18 +327,30 @@ MonoBehaviour:
       - ElementName: Room_Ambiance3_Low
         ObjectType: 3
       ID: -657462407
-      Guid: d491c52e7794dd4aae0990d0a902c11f
+      Guid: a5ad2bb6a740334bacf562e8f150cb2c
       maxAttenuation: 0
-    - Name: Room_Ambiance4
-      Path: Default Work Unit\Room\Room_Ambiance4
+    - Name: Room_Ambiance4_Low
+      Path: Default Work Unit\Room\Room_Ambiance4_Low
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
       - ElementName: Room
         ObjectType: 4
-      - ElementName: Room_Ambiance4
+      - ElementName: Room_Ambiance4_Low
         ObjectType: 3
-      ID: -124470555
+      ID: -1580366682
+      Guid: d491c52e7794dd4aae0990d0a902c11f
+      maxAttenuation: 0
+    - Name: Room_Ambiance5
+      Path: Default Work Unit\Room\Room_Ambiance5
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Room
+        ObjectType: 4
+      - ElementName: Room_Ambiance5
+        ObjectType: 3
+      ID: -124470556
       Guid: 9b6de48ded5f184c825c36e34ea75a8a
       maxAttenuation: 0
     - Name: Room_Clock
@@ -271,6 +389,54 @@ MonoBehaviour:
       ID: 1237051726
       Guid: 7cde78685b293243a1682a1e140716f0
       maxAttenuation: 0
+    - Name: Room_Door_Open_2
+      Path: Default Work Unit\Room\Room_Door_Open_2
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Room
+        ObjectType: 4
+      - ElementName: Room_Door_Open_2
+        ObjectType: 3
+      ID: -52590147
+      Guid: ce514b31140a6848b5c8056038ca2ed9
+      maxAttenuation: 0
+    - Name: Room_Door_Open_3
+      Path: Default Work Unit\Room\Room_Door_Open_3
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Room
+        ObjectType: 4
+      - ElementName: Room_Door_Open_3
+        ObjectType: 3
+      ID: -52590148
+      Guid: 0d5a9c354d328844b354ac42439bf2a7
+      maxAttenuation: 0
+    - Name: Room_Door_Open_4
+      Path: Default Work Unit\Room\Room_Door_Open_4
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Room
+        ObjectType: 4
+      - ElementName: Room_Door_Open_4
+        ObjectType: 3
+      ID: -52590149
+      Guid: 385101091ec27d47847f1234f3f532b4
+      maxAttenuation: 0
+    - Name: Room_Door_Open_Final
+      Path: Default Work Unit\Room\Room_Door_Open_Final
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Room
+        ObjectType: 4
+      - ElementName: Room_Door_Open_Final
+        ObjectType: 3
+      ID: 1857214711
+      Guid: aa8f99a3732f0642b135db5305b0e240
+      maxAttenuation: 0
     - Name: Room_Gun_Pick_Up
       Path: Default Work Unit\Room\Room_Gun_Pick_Up
       PathAndIcons:
@@ -294,6 +460,30 @@ MonoBehaviour:
         ObjectType: 3
       ID: -1318191742
       Guid: dd3a75f555df344ead0fd97e3dcd7f08
+      maxAttenuation: 0
+    - Name: SpotLight
+      Path: Default Work Unit\Metro\SpotLight
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Metro
+        ObjectType: 4
+      - ElementName: SpotLight
+        ObjectType: 3
+      ID: -1126602949
+      Guid: f401f144140d214ca0420458270a5115
+      maxAttenuation: 0
+    - Name: SpotLightStop
+      Path: Default Work Unit\Metro\SpotLightStop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Metro
+        ObjectType: 4
+      - ElementName: SpotLightStop
+        ObjectType: 3
+      ID: 2051656251
+      Guid: f2ed57130cb9b44bb5b653377ab5dc88
       maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -336,11 +526,15 @@ MonoBehaviour:
   - /Asylum Jam 2016
   - /Asylum Jam 2016/Events
   - /Asylum Jam 2016/Events/Default Work Unit
+  - /Asylum Jam 2016/Events/Default Work Unit/Cuisine
+  - /Asylum Jam 2016/Events/Default Work Unit/Grenier
+  - /Asylum Jam 2016/Events/Default Work Unit/Interogatoire
   - /Asylum Jam 2016/Events/Default Work Unit/Metro
+  - /Asylum Jam 2016/Events/Default Work Unit/Room
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1
-  basePath: Audio\GeneratedSoundBanks
+  basePath: GeneratedSoundBanks
   language: English(US)
   defaultPoolSize: 4096
   lowerPoolSize: 2048

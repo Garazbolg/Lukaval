@@ -27,7 +27,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!1 &1000011318438834
 GameObject:
@@ -146,7 +146,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 6c52d6bc06537ef4bb87ee09cf3922ee, type: 2}
+  - {fileID: 2100000, guid: 70f704478d0830641bbdecf72bc72b1c, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -175,7 +175,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 2100000, guid: 6c52d6bc06537ef4bb87ee09cf3922ee, type: 2}
+  - {fileID: 2100000, guid: f0d38ff6c8545374fb7b27cefe03f487, type: 2}
   m_SubsetIndices: 
   m_StaticBatchRoot: {fileID: 0}
   m_ProbeAnchor: {fileID: 0}
@@ -246,4 +246,4 @@ MonoBehaviour:
   closingTime: 0.5
   targetPosition: {x: 0, y: 0, z: 1.493}
   TargetRotation: {x: 0, y: 0, z: 0}
-  currentTime: 0
+  soundName: Cuisine_Drawer

@@ -5,9 +5,17 @@ public class MovingLight : MonoBehaviour {
     public float speed = 0.1f;
     public Transform popSpot;
 
+    public GameObject audioSource;
+
+    void Start()
+    {
+        if(audioSource)
+            AkSoundEngine.PostEvent("Spotlight",audioSource);
+    }
+
 	void Update ()
     {
-        transform.position += speed * transform.right;
+        transform.position -= speed * transform.forward;
 	}
 
     void OnTriggerEnter(Collider other)
@@ -15,8 +23,10 @@ public class MovingLight : MonoBehaviour {
         if (other.gameObject.CompareTag("Respawn"))
         {
             transform.position = popSpot.position;
+            if (audioSource)
+                AkSoundEngine.PostEvent("Spotlight", audioSource);
         }
-        else if (!other.gameObject.CompareTag("Player"))
+        else if (other.gameObject.CompareTag("WeepingAngel"))
         {
             ShowObject(other, true);
         }
@@ -24,7 +34,7 @@ public class MovingLight : MonoBehaviour {
 
     void OnTriggerExit(Collider other)
     {
-        if (!other.gameObject.CompareTag("Player"))
+        if (other.gameObject.CompareTag("WeepingAngel"))
         {
             ShowObject(other, false);
         }
@@ -32,7 +42,11 @@ public class MovingLight : MonoBehaviour {
 
     private void ShowObject(Collider obj, bool show)
     {
-        MeshRenderer render = obj.transform.GetComponent<MeshRenderer>();
+        StoreScale store = obj.transform.GetComponent<StoreScale>();
+        store.Show(show);
+
+        /*
+        MeshRenderer render = obj.transform.GetComponentInChildren<MeshRenderer>();
         float scale = (show) ? 1 : 0;
 
         if (render != null)
@@ -40,5 +54,6 @@ public class MovingLight : MonoBehaviour {
             render.enabled = show;
             obj.transform.localScale = new Vector3(scale, scale, scale);
         }
+        */
     }
 }

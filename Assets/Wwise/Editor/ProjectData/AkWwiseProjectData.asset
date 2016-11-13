@@ -16,9 +16,99 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{6AF1B377-6470-40DA-BBEE-8BD6C6AFD515}'
-    m_lastTimePsrt1: 1876538353
-    m_lastTimePart2: -1999369360
+    m_lastTimePsrt1: -1863323692
+    m_lastTimePart2: -1999369265
     List:
+    - Name: BabyAppear1
+      Path: Default Work Unit\BabyAppear1
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BabyAppear1
+        ObjectType: 3
+      ID: 1221876919
+      Guid: 68e0d9ed6b1db34ebd4506b7579567c9
+      maxAttenuation: 0
+    - Name: BabyAppear1_
+      Path: Default Work Unit\BabyAppear1_
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BabyAppear1_
+        ObjectType: 3
+      ID: 1565389898
+      Guid: ac42fb0944849a48a4e2dbc09dd4cf9f
+      maxAttenuation: 0
+    - Name: BabyAppear2
+      Path: Default Work Unit\BabyAppear2
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BabyAppear2
+        ObjectType: 3
+      ID: 1221876916
+      Guid: 728df4211d6a1f4f9368a3762bf42bab
+      maxAttenuation: 0
+    - Name: BabyAppear2_
+      Path: Default Work Unit\BabyAppear2_
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BabyAppear2_
+        ObjectType: 3
+      ID: 1515056899
+      Guid: 867c2610896aec45a365dc06562b6b86
+      maxAttenuation: 0
+    - Name: BabyAppear3
+      Path: Default Work Unit\BabyAppear3
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BabyAppear3
+        ObjectType: 3
+      ID: 1221876917
+      Guid: 01b8af2580b7674a85b826c2de7c72fb
+      maxAttenuation: 0
+    - Name: BabyAppear3_
+      Path: Default Work Unit\BabyAppear3_
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BabyAppear3_
+        ObjectType: 3
+      ID: 1531834544
+      Guid: 994ef235ab178148b1a9a9f906483ca2
+      maxAttenuation: 0
+    - Name: BabyDesappear
+      Path: Default Work Unit\BabyDesappear
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BabyDesappear
+        ObjectType: 3
+      ID: -851863704
+      Guid: 5cd377e4f291c048a6b1cf9eb7acf527
+      maxAttenuation: 0
+    - Name: BabyStart
+      Path: Default Work Unit\BabyStart
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BabyStart
+        ObjectType: 3
+      ID: 1202249939
+      Guid: d430a66d0e1fc44083d4463bbc41eb5b
+      maxAttenuation: 0
+    - Name: BabyStop
+      Path: Default Work Unit\BabyStop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: BabyStop
+        ObjectType: 3
+      ID: -1112511855
+      Guid: 1200dfde28455b4e86d6ddd09619a59c
+      maxAttenuation: 0
     - Name: Cuisine_Door_Close
       Path: Default Work Unit\Cuisine\Cuisine_Door_Close
       PathAndIcons:
@@ -235,6 +325,18 @@ MonoBehaviour:
       ID: -1020521779
       Guid: f19147a6c55ff4418c9868f62a0cdc17
       maxAttenuation: 0
+    - Name: Metro_Flicker_Stop
+      Path: Default Work Unit\Metro\Metro_Flicker_Stop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Metro
+        ObjectType: 4
+      - ElementName: Metro_Flicker_Stop
+        ObjectType: 3
+      ID: 1122699712
+      Guid: 3d17234c0ba1874b9fe26aad18ae13a0
+      maxAttenuation: 0
     - Name: Metro_Light
       Path: Default Work Unit\Metro\Metro_Light
       PathAndIcons:
@@ -246,6 +348,16 @@ MonoBehaviour:
         ObjectType: 3
       ID: -1331956563
       Guid: 110b3d5f60cee44fab16d7f9b78af7da
+      maxAttenuation: 0
+    - Name: NoteMetro
+      Path: Default Work Unit\NoteMetro
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: NoteMetro
+        ObjectType: 3
+      ID: 1520834128
+      Guid: 4a2391ead309404799dbb793f467a1df
       maxAttenuation: 0
     - Name: Pick_Up
       Path: Default Work Unit\Pick_Up
@@ -526,11 +638,7 @@ MonoBehaviour:
   - /Asylum Jam 2016
   - /Asylum Jam 2016/Events
   - /Asylum Jam 2016/Events/Default Work Unit
-  - /Asylum Jam 2016/Events/Default Work Unit/Cuisine
-  - /Asylum Jam 2016/Events/Default Work Unit/Grenier
-  - /Asylum Jam 2016/Events/Default Work Unit/Interogatoire
   - /Asylum Jam 2016/Events/Default Work Unit/Metro
-  - /Asylum Jam 2016/Events/Default Work Unit/Room
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

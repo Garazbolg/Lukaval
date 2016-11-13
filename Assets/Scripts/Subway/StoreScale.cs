@@ -6,13 +6,27 @@ public class StoreScale : MonoBehaviour {
 
     private Vector3 originScale;
 
-	void Start ()
+    public string soundOnAppear;
+
+    public string soundOnDisappear;
+
+    void Start ()
     {
         originScale = transform.localScale;
 	}
 	
 	public void Show(bool show)
     {
+        if (show)
+        {
+            AkSoundEngine.PostEvent(soundOnAppear, gameObject);
+        }
+        else
+        {
+            AkSoundEngine.PostEvent(soundOnDisappear, gameObject);
+            AkSoundEngine.PostEvent("BabyDesappear", gameObject);
+        }
+
         foreach(MeshRenderer r in renders)
         {
             r.enabled = show;

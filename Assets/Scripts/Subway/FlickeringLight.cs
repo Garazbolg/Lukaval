@@ -3,56 +3,51 @@ using System.Collections;
 
 public class FlickeringLight : MonoBehaviour {
     public Light spotlight;
-    public SphereCollider trigger;
-    public int flickeringInterval;
-    public int lightOnDuration;
 
+    private bool activated = false;
     private float lastFlickering = 0;
+    private float[] sequenceTimes;
+    private int sequenceStep = 0;
 
-	void Start () {
-        LightOn(true);
-	}
+    void Start()
+    {
+        sequenceTimes = new float[7];
+        sequenceTimes[0] = 500;
+        sequenceTimes[1] = 300;
+        sequenceTimes[2] = 700;
+        sequenceTimes[3] = 200;
+        sequenceTimes[4] = 100;
+        sequenceTimes[5] = 200;
+        sequenceTimes[6] = 100;
+    }
 	
 	void Update () {
-        if ((Time.realtimeSinceStartup * 1000) - lastFlickering > flickeringInterval)
+        if (activated)
         {
-            lastFlickering = Time.realtimeSinceStartup * 1000;
-            LightOn(true);
-        }
-        else if ((Time.realtimeSinceStartup * 1000) - lastFlickering > lightOnDuration)
-        {
-            LightOn(false);
+            if (sequenceStep < sequenceTimes.Length && (Time.realtimeSinceStartup * 1000) - lastFlickering > sequenceTimes[sequenceStep])
+            {
+                spotlight.enabled = !spotlight.enabled;
+                sequenceStep++;
+                lastFlickering = Time.realtimeSinceStartup * 1000;
+            }
+            else if (sequenceStep == sequenceTimes.Length && (Time.realtimeSinceStartup * 1000) - lastFlickering > sequenceTimes[sequenceStep-1])
+            {
+                spotlight.enabled = false;
+                AkSoundEngine.PostEvent("Metro_Flicker_Stop", gameObject);
+                sequenceStep++;
+            }
         }
 	}
 
-    void LightOn(bool lightUp)
+    public void ActivateFlickering()
     {
-        spotlight.enabled = lightUp;
-        trigger.radius = (lightUp) ? 0 : 3;
-    }
-
-    void OnTriggerEnter(Collider other)
-    {
-        ShowObject(other, false);
-    }
-
-    void OnTriggerExit(Collider other)
-    {
-        ShowObject(other, true);
-    }
-
-    private void ShowObject(Collider obj, bool show)
-    {
-        if (!obj.gameObject.CompareTag("Player"))
+        if (!activated)
         {
-            MeshRenderer render = obj.transform.GetComponent<MeshRenderer>();
-            float scale = (show) ? 1 : 0;
-
-            if (render != null)
-            {
-                render.enabled = show;
-                obj.transform.localScale = new Vector3(scale, scale, scale);
-            }
+            activated = true;
+            spotlight.enabled = false;
+            lastFlickering = Time.realtimeSinceStartup * 1000;
+            AkSoundEngine.PostEvent("Metro_Flicker", gameObject);
         }
+        
     }
 }

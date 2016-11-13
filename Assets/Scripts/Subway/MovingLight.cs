@@ -10,7 +10,7 @@ public class MovingLight : MonoBehaviour {
     void Start()
     {
         if(audioSource)
-            AkSoundEngine.PostEvent("Spotlight",audioSource);
+            AkSoundEngine.PostEvent("NoteMetro",audioSource);
     }
 
 	void Update ()
@@ -24,7 +24,7 @@ public class MovingLight : MonoBehaviour {
         {
             transform.position = popSpot.position;
             if (audioSource)
-                AkSoundEngine.PostEvent("Spotlight", audioSource);
+                AkSoundEngine.PostEvent("NoteMetro", audioSource);
         }
         else if (other.gameObject.CompareTag("WeepingAngel"))
         {

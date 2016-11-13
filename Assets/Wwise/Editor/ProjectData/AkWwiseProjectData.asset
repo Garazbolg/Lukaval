@@ -16,94 +16,112 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{6AF1B377-6470-40DA-BBEE-8BD6C6AFD515}'
-    m_lastTimePsrt1: -1863323692
-    m_lastTimePart2: -1999369265
+    m_lastTimePsrt1: 1148043264
+    m_lastTimePart2: -1999369257
     List:
     - Name: BabyAppear1
-      Path: Default Work Unit\BabyAppear1
+      Path: Default Work Unit\Baby\BabyAppear1
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Baby
+        ObjectType: 4
       - ElementName: BabyAppear1
         ObjectType: 3
       ID: 1221876919
       Guid: 68e0d9ed6b1db34ebd4506b7579567c9
       maxAttenuation: 0
     - Name: BabyAppear1_
-      Path: Default Work Unit\BabyAppear1_
+      Path: Default Work Unit\Baby\BabyAppear1_
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Baby
+        ObjectType: 4
       - ElementName: BabyAppear1_
         ObjectType: 3
       ID: 1565389898
       Guid: ac42fb0944849a48a4e2dbc09dd4cf9f
       maxAttenuation: 0
     - Name: BabyAppear2
-      Path: Default Work Unit\BabyAppear2
+      Path: Default Work Unit\Baby\BabyAppear2
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Baby
+        ObjectType: 4
       - ElementName: BabyAppear2
         ObjectType: 3
       ID: 1221876916
       Guid: 728df4211d6a1f4f9368a3762bf42bab
       maxAttenuation: 0
     - Name: BabyAppear2_
-      Path: Default Work Unit\BabyAppear2_
+      Path: Default Work Unit\Baby\BabyAppear2_
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Baby
+        ObjectType: 4
       - ElementName: BabyAppear2_
         ObjectType: 3
       ID: 1515056899
       Guid: 867c2610896aec45a365dc06562b6b86
       maxAttenuation: 0
     - Name: BabyAppear3
-      Path: Default Work Unit\BabyAppear3
+      Path: Default Work Unit\Baby\BabyAppear3
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Baby
+        ObjectType: 4
       - ElementName: BabyAppear3
         ObjectType: 3
       ID: 1221876917
       Guid: 01b8af2580b7674a85b826c2de7c72fb
       maxAttenuation: 0
     - Name: BabyAppear3_
-      Path: Default Work Unit\BabyAppear3_
+      Path: Default Work Unit\Baby\BabyAppear3_
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Baby
+        ObjectType: 4
       - ElementName: BabyAppear3_
         ObjectType: 3
       ID: 1531834544
       Guid: 994ef235ab178148b1a9a9f906483ca2
       maxAttenuation: 0
     - Name: BabyDesappear
-      Path: Default Work Unit\BabyDesappear
+      Path: Default Work Unit\Baby\BabyDesappear
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Baby
+        ObjectType: 4
       - ElementName: BabyDesappear
         ObjectType: 3
       ID: -851863704
       Guid: 5cd377e4f291c048a6b1cf9eb7acf527
       maxAttenuation: 0
     - Name: BabyStart
-      Path: Default Work Unit\BabyStart
+      Path: Default Work Unit\Baby\BabyStart
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Baby
+        ObjectType: 4
       - ElementName: BabyStart
         ObjectType: 3
       ID: 1202249939
       Guid: d430a66d0e1fc44083d4463bbc41eb5b
       maxAttenuation: 0
     - Name: BabyStop
-      Path: Default Work Unit\BabyStop
+      Path: Default Work Unit\Baby\BabyStop
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Baby
+        ObjectType: 4
       - ElementName: BabyStop
         ObjectType: 3
       ID: -1112511855
@@ -350,10 +368,12 @@ MonoBehaviour:
       Guid: 110b3d5f60cee44fab16d7f9b78af7da
       maxAttenuation: 0
     - Name: NoteMetro
-      Path: Default Work Unit\NoteMetro
+      Path: Default Work Unit\Metro\NoteMetro
       PathAndIcons:
       - ElementName: Default Work Unit
         ObjectType: 12
+      - ElementName: Metro
+        ObjectType: 4
       - ElementName: NoteMetro
         ObjectType: 3
       ID: 1520834128
@@ -549,6 +569,18 @@ MonoBehaviour:
       ID: 1857214711
       Guid: aa8f99a3732f0642b135db5305b0e240
       maxAttenuation: 0
+    - Name: Room_Gun_Load
+      Path: Default Work Unit\Room\Room_Gun_Load
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Room
+        ObjectType: 4
+      - ElementName: Room_Gun_Load
+        ObjectType: 3
+      ID: 453794714
+      Guid: b01795a9f205844c9c77790c924f1f8c
+      maxAttenuation: 0
     - Name: Room_Gun_Pick_Up
       Path: Default Work Unit\Room\Room_Gun_Pick_Up
       PathAndIcons:
@@ -559,7 +591,7 @@ MonoBehaviour:
       - ElementName: Room_Gun_Pick_Up
         ObjectType: 3
       ID: 2103112175
-      Guid: b01795a9f205844c9c77790c924f1f8c
+      Guid: 5342d85f0d165b43946db7320cf98d4e
       maxAttenuation: 0
     - Name: Room_Gun_Shot
       Path: Default Work Unit\Room\Room_Gun_Shot
@@ -572,30 +604,6 @@ MonoBehaviour:
         ObjectType: 3
       ID: -1318191742
       Guid: dd3a75f555df344ead0fd97e3dcd7f08
-      maxAttenuation: 0
-    - Name: SpotLight
-      Path: Default Work Unit\Metro\SpotLight
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Metro
-        ObjectType: 4
-      - ElementName: SpotLight
-        ObjectType: 3
-      ID: -1126602949
-      Guid: f401f144140d214ca0420458270a5115
-      maxAttenuation: 0
-    - Name: SpotLightStop
-      Path: Default Work Unit\Metro\SpotLightStop
-      PathAndIcons:
-      - ElementName: Default Work Unit
-        ObjectType: 12
-      - ElementName: Metro
-        ObjectType: 4
-      - ElementName: SpotLightStop
-        ObjectType: 3
-      ID: 2051656251
-      Guid: f2ed57130cb9b44bb5b653377ab5dc88
       maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -638,7 +646,11 @@ MonoBehaviour:
   - /Asylum Jam 2016
   - /Asylum Jam 2016/Events
   - /Asylum Jam 2016/Events/Default Work Unit
+  - /Asylum Jam 2016/Events/Default Work Unit/Cuisine
+  - /Asylum Jam 2016/Events/Default Work Unit/Grenier
+  - /Asylum Jam 2016/Events/Default Work Unit/Interogatoire
   - /Asylum Jam 2016/Events/Default Work Unit/Metro
+  - /Asylum Jam 2016/Events/Default Work Unit/Room
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0
   autoPopulateEnabled: 1

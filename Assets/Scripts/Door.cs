@@ -3,10 +3,21 @@ using System.Collections;
 
 public class Door : MonoBehaviour {
     public Animator anim;
+    public GameObject roomToActivate;
+    public GameObject pointLight;
 
 	void OnTriggerEnter()
     {
-        Debug.Log("lol");
         anim.SetBool("Open", true);
+
+        if (roomToActivate != null)
+        {
+            roomToActivate.SetActive(true);
+
+            if(pointLight != null)
+                pointLight.SetActive(roomToActivate.name.Equals("Grenier"));
+        }
+
+
     }
 }

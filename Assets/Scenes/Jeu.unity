@@ -2791,6 +2791,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 89907909}
+  roomToActivate: {fileID: 1270800090}
+  pointLight: {fileID: 750511333}
 --- !u!1 &93671307
 GameObject:
   m_ObjectHideFlags: 0
@@ -9245,6 +9247,11 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 240387919}
   m_Mesh: {fileID: 4300046, guid: e7c89a6a8eb8e264197e69d9dd8b1814, type: 3}
+--- !u!1 &243596594 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1000010794289970, guid: fe921cf795ab94649b9a04ef32469641,
+    type: 2}
+  m_PrefabInternal: {fileID: 932793086}
 --- !u!1 &244982579
 GameObject:
   m_ObjectHideFlags: 0
@@ -10655,6 +10662,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 275745835}
+  roomToActivate: {fileID: 0}
+  pointLight: {fileID: 0}
 --- !u!1 &276053181
 GameObject:
   m_ObjectHideFlags: 0
@@ -11358,7 +11367,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &298109429
 Transform:
   m_ObjectHideFlags: 0
@@ -11384,7 +11393,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toKillScene: {fileID: 867834703}
-  nextScene: {fileID: 729650903}
+  doorToClose: {fileID: 1243567716}
+  nextScene: {fileID: 0}
+  nextDoor: {fileID: 0}
   lightForAttic: {fileID: 750511333}
 --- !u!65 &298109431
 BoxCollider:
@@ -17430,6 +17441,10 @@ Prefab:
       propertyPath: m_Name
       value: PORTE (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013015693688, guid: fe921cf795ab94649b9a04ef32469641, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fe921cf795ab94649b9a04ef32469641, type: 2}
   m_IsPrefabParent: 0
@@ -22938,6 +22953,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Question: {fileID: 1973782376}
   Activated: 1
+  toActivate: {fileID: 1390360858}
 --- !u!4 &554976691
 Transform:
   m_ObjectHideFlags: 0
@@ -23078,6 +23094,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 556310591}
+  roomToActivate: {fileID: 0}
+  pointLight: {fileID: 0}
 --- !u!1 &556376851
 GameObject:
   m_ObjectHideFlags: 0
@@ -25867,7 +25885,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &602041043
 Transform:
   m_ObjectHideFlags: 0
@@ -26181,6 +26199,64 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 609085050}
   m_Mesh: {fileID: 4300004, guid: 4f7b549242bccf640b1aaa4c0333bdc9, type: 3}
+--- !u!1 &615253797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 615253800}
+  - 65: {fileID: 615253799}
+  - 114: {fileID: 615253798}
+  m_Layer: 0
+  m_Name: Leave
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &615253798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 615253797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 077f333a14bbfa8429afcfedcfc4cca1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toKillScene: {fileID: 867834703}
+  doorToClose: {fileID: 0}
+  nextScene: {fileID: 675894198}
+  nextDoor: {fileID: 2000498580}
+  lightForAttic: {fileID: 750511333}
+--- !u!65 &615253799
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 615253797}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 5, y: 5, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &615253800
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 615253797}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 261.49, y: 5.72, z: -39.581}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 1310052308}
+  m_RootOrder: 5
 --- !u!1 &621297797
 GameObject:
   m_ObjectHideFlags: 0
@@ -27819,7 +27895,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 656418052}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 318.4, y: -297.56, z: -206.6}
+  m_LocalPosition: {x: 318.4, y: -296.83, z: -206.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -37753,7 +37829,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &828070836
 Transform:
   m_ObjectHideFlags: 0
@@ -37779,7 +37855,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toKillScene: {fileID: 1252558867}
+  doorToClose: {fileID: 0}
   nextScene: {fileID: 1742950709}
+  nextDoor: {fileID: 0}
   lightForAttic: {fileID: 750511333}
 --- !u!65 &828070838
 BoxCollider:
@@ -37987,6 +38065,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1907902928}
+  roomToActivate: {fileID: 602041042}
+  pointLight: {fileID: 0}
 --- !u!1 &831652185
 GameObject:
   m_ObjectHideFlags: 0
@@ -42172,6 +42252,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 932793088}
+  roomToActivate: {fileID: 956334852}
+  pointLight: {fileID: 243596594}
 --- !u!1 &934178499
 GameObject:
   m_ObjectHideFlags: 0
@@ -58814,7 +58896,7 @@ Transform:
   - {fileID: 2018293437}
   - {fileID: 2018993753}
   - {fileID: 1045580513}
-  - {fileID: 1528378848}
+  - {fileID: 615253800}
   m_Father: {fileID: 867834704}
   m_RootOrder: 0
 --- !u!1 &1314914987
@@ -63929,7 +64011,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1390360859
 Transform:
   m_ObjectHideFlags: 0
@@ -63937,8 +64019,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1390360858}
   m_LocalRotation: {x: -0, y: -0.7071068, z: 0.7071068, w: 0}
-  m_LocalPosition: {x: -1.6600037, y: 2.15, z: -11.459999}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -1.6600037, y: 0.02, z: -13.236}
+  m_LocalScale: {x: 1, y: 0.42928892, z: 1}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_Children: []
   m_Father: {fileID: 1270800091}
@@ -63955,7 +64037,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toKillScene: {fileID: 858933340}
+  doorToClose: {fileID: 0}
   nextScene: {fileID: 1745430628}
+  nextDoor: {fileID: 0}
   lightForAttic: {fileID: 750511333}
 --- !u!65 &1390360861
 BoxCollider:
@@ -64299,7 +64383,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1399159741
 Transform:
   m_ObjectHideFlags: 0
@@ -64325,7 +64409,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toKillScene: {fileID: 1745430628}
+  doorToClose: {fileID: 0}
   nextScene: {fileID: 1326490320}
+  nextDoor: {fileID: 0}
   lightForAttic: {fileID: 750511333}
 --- !u!65 &1399159743
 BoxCollider:
@@ -66786,6 +66872,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetToActivate: {fileID: 558619731}
+  itemToActivate: {fileID: 615253797}
 --- !u!65 &1465241391
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -69407,62 +69494,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!1 &1528378847
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1528378848}
-  - 65: {fileID: 1528378849}
-  - 114: {fileID: 1528378850}
-  m_Layer: 0
-  m_Name: Leave
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1528378848
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1528378847}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 261.49, y: 5.72, z: -49.07}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1310052308}
-  m_RootOrder: 5
---- !u!65 &1528378849
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1528378847}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5, y: 5, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1528378850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1528378847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077f333a14bbfa8429afcfedcfc4cca1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toKillScene: {fileID: 1310052307}
-  nextScene: {fileID: 675894198}
-  lightForAttic: {fileID: 750511333}
 --- !u!1 &1529300271
 GameObject:
   m_ObjectHideFlags: 0
@@ -71944,8 +71975,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toKillScene: {fileID: 1974236673}
-  nextScene: {fileID: 656418052}
-  lightForAttic: {fileID: 750511333}
+  doorToClose: {fileID: 1970695640}
+  nextScene: {fileID: 0}
+  nextDoor: {fileID: 1970695641}
+  lightForAttic: {fileID: 0}
 --- !u!65 &1573396612
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -80687,7 +80720,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1742950709}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 513.42, y: -0.72, z: -49.39}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_Children:
@@ -80794,7 +80827,6 @@ Transform:
   - {fileID: 932793087}
   - {fileID: 1522796557}
   - {fileID: 463840054}
-  - {fileID: 1956653191}
   m_Father: {fileID: 1252558868}
   m_RootOrder: 0
 --- !u!1 &1745891623
@@ -84902,7 +84934,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1840740126}
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 261.04, y: 6.57, z: -40.85}
+  m_LocalPosition: {x: 261.04, y: 4.72, z: -40.85}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
   m_Children: []
@@ -84920,8 +84952,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   toKillScene: {fileID: 1151185668}
-  nextScene: {fileID: 1270800090}
-  lightForAttic: {fileID: 750511333}
+  doorToClose: {fileID: 89907909}
+  nextScene: {fileID: 0}
+  nextDoor: {fileID: 0}
+  lightForAttic: {fileID: 0}
 --- !u!65 &1840740129
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -89769,62 +89803,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1954427436}
   m_Mesh: {fileID: 4300074, guid: e7c89a6a8eb8e264197e69d9dd8b1814, type: 3}
---- !u!1 &1956653190
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1956653191}
-  - 65: {fileID: 1956653193}
-  - 114: {fileID: 1956653192}
-  m_Layer: 0
-  m_Name: Leave
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1956653191
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1956653190}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 261.04, y: 5.61, z: -41.05}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_Children: []
-  m_Father: {fileID: 1745430629}
-  m_RootOrder: 5
---- !u!114 &1956653192
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1956653190}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 077f333a14bbfa8429afcfedcfc4cca1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  toKillScene: {fileID: 1697217918}
-  nextScene: {fileID: 956334852}
-  lightForAttic: {fileID: 750511333}
---- !u!65 &1956653193
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1956653190}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5, y: 5, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1956774133
 GameObject:
   m_ObjectHideFlags: 0
@@ -90861,6 +90839,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1970695640}
+  roomToActivate: {fileID: 656418052}
+  pointLight: {fileID: 750511333}
 --- !u!1 &1971192743
 GameObject:
   m_ObjectHideFlags: 0
@@ -91766,6 +91746,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   anim: {fileID: 1243567716}
+  roomToActivate: {fileID: 729650903}
+  pointLight: {fileID: 0}
 --- !u!1 &2007056240
 GameObject:
   m_ObjectHideFlags: 0

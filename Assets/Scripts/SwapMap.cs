@@ -3,13 +3,29 @@ using System.Collections;
 
 public class SwapMap : MonoBehaviour {
     public GameObject toKillScene;
+    public Animator doorToClose;
     public GameObject nextScene;
+    public GameObject nextDoor;
     public GameObject lightForAttic;
 
     void OnTriggerEnter(Collider other)
     {
-        toKillScene.SetActive(false);
-        nextScene.SetActive(true);
-        lightForAttic.SetActive(nextScene.name.Equals("Grenier"));
+        if(toKillScene != null)
+            toKillScene.SetActive(false);
+
+        if (nextScene != null)
+        {
+            nextScene.SetActive(true);
+        }
+
+        if(nextDoor != null)
+        {
+            nextDoor.SetActive(true);
+        }
+
+        if (doorToClose != null)
+            doorToClose.SetBool("Open", false);
+
+        
     }
 }

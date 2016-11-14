@@ -4,10 +4,12 @@ using System.Collections;
 public class QuestionsHandler : MonoBehaviour {
     public TextMesh Question;
     public bool Activated = false;
+    public GameObject toActivate;
 
     private string[] m_Questions;
     private int count = 0;
-    private int lastTime = 0;
+
+    private int overCount = 0;
 
     void Start()
     {
@@ -21,5 +23,14 @@ public class QuestionsHandler : MonoBehaviour {
     {
         Question.text = m_Questions[count];
         count = (count < m_Questions.Length-1) ? count + 1 : count;
+        overCount++;
+
+        Debug.Log(overCount);
+        if(overCount == 6)
+        {
+            //Send back to room
+            //Fade out
+            toActivate.SetActive(true);
+        }
     }
 }

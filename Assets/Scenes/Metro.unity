@@ -983,6 +983,10 @@ Prefab:
       propertyPath: m_TagString
       value: WeepingAngel
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: b32cb2f202e52284cba226a13cc49f46, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b32cb2f202e52284cba226a13cc49f46, type: 3}
   m_IsPrefabParent: 0
@@ -1658,6 +1662,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetScene: Chambre 2
+  fadeTime: 1.5
+  fadeText: {fileID: 1000010621874284, guid: a301904399752d64bbf5ff7895449833, type: 2}
 --- !u!65 &409105962
 BoxCollider:
   m_ObjectHideFlags: 0

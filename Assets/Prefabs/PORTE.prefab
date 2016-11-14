@@ -121,6 +121,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 4000011092772348}
   - 65: {fileID: 65000013665443236}
+  - 114: {fileID: 114000012819493550}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -151,6 +152,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 4000011046186822}
+  - 114: {fileID: 114000011292404108}
   m_Layer: 0
   m_Name: PORTE
   m_TagString: Untagged
@@ -607,7 +609,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5, y: 5, z: 5}
+  m_Size: {x: 5, y: 5, z: 2.86}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &95000011159110514
 Animator:
@@ -626,3 +628,39 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114000011292404108
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013569057458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc6d1208ea99c546bfe357773f7558d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: d2ac9a7a1fe10a4fb6c98a0cd103e515
+  eventID: 1209317802
+  soundEmitterObject: {fileID: 0}
+  enableActionOnEvent: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  transitionDuration: 0
+  m_callbackData: {fileID: 0}
+  playingId: 0
+--- !u!114 &114000012819493550
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000013015693688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e390d548097b994aa7c8055a2d6e314, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetScene: Cuisine
+  fadeTime: 1.5
+  fadeText: {fileID: 1000010621874284, guid: a301904399752d64bbf5ff7895449833, type: 2}

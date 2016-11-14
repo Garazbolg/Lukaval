@@ -235,7 +235,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4000010808489372, guid: a79d3edf89977864aad96fbf1c9c83c8, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 261.06
+      value: 261.542
       objectReference: {fileID: 0}
     - target: {fileID: 4000010808489372, guid: a79d3edf89977864aad96fbf1c9c83c8, type: 2}
       propertyPath: m_LocalPosition.y
@@ -243,7 +243,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010808489372, guid: a79d3edf89977864aad96fbf1c9c83c8, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -40.46
+      value: -41.838
       objectReference: {fileID: 0}
     - target: {fileID: 4000010808489372, guid: a79d3edf89977864aad96fbf1c9c83c8, type: 2}
       propertyPath: m_LocalRotation.x
@@ -629,9 +629,10 @@ Prefab:
     - target: {fileID: 65000013665443236, guid: fe921cf795ab94649b9a04ef32469641,
         type: 2}
       propertyPath: m_Size.z
-      value: 2.86
+      value: 1.17
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114000012819493550, guid: fe921cf795ab94649b9a04ef32469641, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: fe921cf795ab94649b9a04ef32469641, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &238357500 stripped
@@ -678,6 +679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetScene: Grenier
+  fadeTime: 1.5
 --- !u!1 &258734074
 GameObject:
   m_ObjectHideFlags: 0

@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31894ce726d07a04abd4e67626ba330d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: MainMenu
+  target: Credits
   waitTime: 5
 --- !u!1 &1550096962
 GameObject:

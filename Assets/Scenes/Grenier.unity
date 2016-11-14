@@ -30134,6 +30134,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetScene: Chambre 3
+  fadeTime: 1.5
+  fadeText: {fileID: 1000010621874284, guid: a301904399752d64bbf5ff7895449833, type: 2}
 --- !u!65 &1646005910
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33381,7 +33383,13 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114000012819493550, guid: fe921cf795ab94649b9a04ef32469641,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114000012819493550, guid: fe921cf795ab94649b9a04ef32469641, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: fe921cf795ab94649b9a04ef32469641, type: 2}
   m_IsPrefabParent: 0
 --- !u!4 &1803453220 stripped

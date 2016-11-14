@@ -3136,6 +3136,11 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
+    - target: {fileID: 65000013665443236, guid: fe921cf795ab94649b9a04ef32469641,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 1.17
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fe921cf795ab94649b9a04ef32469641, type: 2}
   m_IsPrefabParent: 0
@@ -3188,6 +3193,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetScene: Chambre 1
+  fadeTime: 1.5
+  fadeText: {fileID: 1000010621874284, guid: a301904399752d64bbf5ff7895449833, type: 2}
 --- !u!4 &1280023674 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 87bbc0f9da2c45440b5f47c0d005b08d, type: 3}

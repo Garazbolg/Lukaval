@@ -10,7 +10,8 @@ public class GameActivator : MonoBehaviour{
 	}
 
 	public virtual void OnActivate(){
-		targetToActivate.enabled = true;
+		if(targetToActivate)
+            targetToActivate.enabled = true;
 	}
 
 	public void Activate(){

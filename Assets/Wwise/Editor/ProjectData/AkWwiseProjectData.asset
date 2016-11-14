@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{6AF1B377-6470-40DA-BBEE-8BD6C6AFD515}'
-    m_lastTimePsrt1: 1148043264
-    m_lastTimePart2: -1999369257
+    m_lastTimePsrt1: 1395515159
+    m_lastTimePart2: -1999369118
     List:
     - Name: BabyAppear1
       Path: Default Work Unit\Baby\BabyAppear1
@@ -604,6 +604,16 @@ MonoBehaviour:
         ObjectType: 3
       ID: -1318191742
       Guid: dd3a75f555df344ead0fd97e3dcd7f08
+      maxAttenuation: 0
+    - Name: Stop_All
+      Path: Default Work Unit\Stop_All
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_All
+        ObjectType: 3
+      ID: 452547817
+      Guid: e36f944db0527f44a0770b00088487e0
       maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu

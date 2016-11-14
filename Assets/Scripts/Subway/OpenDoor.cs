@@ -6,6 +6,7 @@ public class OpenDoor : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
+        if (!other.GetComponent<CharacterController>()) return;
         StartCoroutine(Open((endPos.position - transform.position).normalized));
         AkSoundEngine.PostEvent("Metro_Door_Open", gameObject);
         GetComponent<Collider>().enabled = false;

@@ -35,6 +35,9 @@ public class WeepingAngel : MonoBehaviour {
             transform.position += v.normalized * Time.deltaTime * speed;
             transform.LookAt(transform.position + v);
             anim.speed = 1;
+
+            if (v.magnitude < 0.5f)
+                UnityEngine.SceneManagement.SceneManager.LoadScene("Grenier");
         }
         else
         {

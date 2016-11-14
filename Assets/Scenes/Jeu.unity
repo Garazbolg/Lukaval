@@ -27628,7 +27628,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetToActivate: {fileID: 0}
-  targetPosition: {x: 244.053, y: 1.64, z: 16.26658}
+  targetPosition: {x: 262.59006, y: -1.6962528, z: -79.05493}
   targetLookAt: {fileID: 554976689}
   lerpTime: 3
 --- !u!65 &650201320
@@ -57323,7 +57323,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1270800091
 Transform:
   m_ObjectHideFlags: 0

@@ -30,6 +30,6 @@ public class KnifeWall : MonoBehaviour{
 	}
 
 	void OnTriggerEnter(Collider other){
-		Debug.Log("Dead");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Cuisine");
 	}
 }

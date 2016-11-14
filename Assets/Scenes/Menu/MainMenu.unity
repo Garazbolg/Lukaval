@@ -288,7 +288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aeac6b34c70d9b4ba4290a6437a6758, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetScene: Chamber
+  targetScene: Chambre
 --- !u!1 &435187235
 GameObject:
   m_ObjectHideFlags: 0

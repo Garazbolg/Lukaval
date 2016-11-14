@@ -1612,8 +1612,8 @@ GameObject:
   m_Component:
   - 4: {fileID: 409105959}
   - 65: {fileID: 409105962}
-  - 65: {fileID: 409105961}
   - 114: {fileID: 409105960}
+  - 114: {fileID: 409105961}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -1646,18 +1646,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endPos: {fileID: 1989247438}
---- !u!65 &409105961
-BoxCollider:
+--- !u!114 &409105961
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 409105958}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e390d548097b994aa7c8055a2d6e314, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetScene: Chambre 2
 --- !u!65 &409105962
 BoxCollider:
   m_ObjectHideFlags: 0

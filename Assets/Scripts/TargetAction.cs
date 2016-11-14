@@ -8,7 +8,7 @@ public class TargetAction : MonoBehaviour{
     public GameObject pausePrefab;
 
     public float range = 2;
-	//public GameObject interactUI;
+	public GameObject interactUI;
 
     private Renderer lastRenderer = null;
     private Material lastMaterial = null;
@@ -43,16 +43,22 @@ public class TargetAction : MonoBehaviour{
 
 			if(Input.GetButtonDown("Action")){
                 GameActivator act = hit.collider.GetComponent<GameActivator>();
-                AkSoundEngine.PostEvent("Pick_Up",gameObject);
-				if(act)
-					act.Activate();
-			}
+
+                if (act)
+                {
+                    if (!act.GetComponent<ActivatorGun>())
+                        AkSoundEngine.PostEvent("Pick_Up", gameObject);
+                    else
+                        AkSoundEngine.PostEvent("Room_Gun_Pick_Up", gameObject);
+                    act.Activate();
+                }
+            }
 			else{
-				//interactUI.SetActive(true);
+				interactUI.SetActive(true);
 			}
 		}
 		else{
-			//interactUI.SetActive(false);
+			interactUI.SetActive(false);
             if (lastRenderer)
             {
                 lastRenderer.material = lastMaterial;
@@ -61,4 +67,11 @@ public class TargetAction : MonoBehaviour{
             lastMaterial = null;
         }
 	}
+
+    void OnGUI()
+    {
+        //GUI.Label()
+        GUI.color = Color.black;
+        GUI.Label(new Rect(Screen.width / 2 - 5, Screen.height / 2-3, 20, 20),"+");
+    }
 }

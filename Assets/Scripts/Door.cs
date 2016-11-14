@@ -17,7 +17,15 @@ public class Door : MonoBehaviour {
             if(pointLight != null)
                 pointLight.SetActive(roomToActivate.name.Equals("Grenier"));
         }
+    }
 
+    void OnTriggerExit()
+    {
+        anim.SetBool("Open", false);
+    }
 
+    public void Open()
+    {
+        anim.SetBool("Open", true);
     }
 }

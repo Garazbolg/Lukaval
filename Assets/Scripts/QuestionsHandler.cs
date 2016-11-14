@@ -5,11 +5,13 @@ public class QuestionsHandler : MonoBehaviour {
     public TextMesh Question;
     public bool Activated = false;
     public GameObject toActivate;
+    public Door door;
 
     private string[] m_Questions;
     private int count = 0;
 
     private int overCount = 0;
+    private GameObject player;
 
     void Start()
     {
@@ -17,6 +19,7 @@ public class QuestionsHandler : MonoBehaviour {
         m_Questions[0] = "Do you have\nany idea\n<color=#840000>where</color> you are ?";
         m_Questions[1] = "Isn't <color=#840000>guilt</color>\nconsuming you ?";
         m_Questions[2] = "Ain't you feeling\nthis <color=#840000>loop</color>\nin your mind ?";
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     public void ShowNextMessage()
@@ -25,12 +28,28 @@ public class QuestionsHandler : MonoBehaviour {
         count = (count < m_Questions.Length-1) ? count + 1 : count;
         overCount++;
 
-        Debug.Log(overCount);
         if(overCount == 6)
         {
-            //Send back to room
-            //Fade out
             toActivate.SetActive(true);
+            StartCoroutine(LerpToPosition());
         }
+    }
+
+    IEnumerator LerpToPosition()
+    {
+        float currentTime = Time.deltaTime;
+        Vector3 startPosition = player.transform.position;
+        Vector3 target = player.transform.position + player.transform.up/3;
+
+        while (currentTime < 0.5f)
+        {
+            player.transform.position = Vector3.Lerp(startPosition, target, currentTime / 0.5f);
+            yield return null;
+            currentTime += Time.deltaTime;
+        }
+
+        Question.text = "";
+        player.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().allowMoving = true;
+        door.Open();
     }
 }

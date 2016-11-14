@@ -3,11 +3,13 @@ using System.Collections;
 
 public class CanapeToSit : GameActivator {
 
-    public Vector3 targetPosition;
+    public Transform target;
 
     public GameObject targetLookAt;
 
     public float lerpTime = 3f;
+
+    public QuestionsHandler handler;
 
     GameObject player;
 
@@ -16,7 +18,11 @@ public class CanapeToSit : GameActivator {
         base.OnActivate();
         player = GameObject.FindGameObjectWithTag("Player");
         GetComponent<Collider>().enabled = false;
-        
+        handler.Activated = true;
+        handler.ShowNextMessage();
+
+        player.GetComponent<UnityStandardAssets.Characters.FirstPerson.FirstPersonController>().allowMoving = false;
+
         StartCoroutine(LerpToPosition());
     }
 
@@ -25,10 +31,11 @@ public class CanapeToSit : GameActivator {
         float currentTime = Time.deltaTime;
         Vector3 startPosition = player.transform.position;
         Quaternion startRotation = player.transform.rotation;
-        Quaternion targetLookRotation = Quaternion.FromToRotation(player.transform.forward, (targetLookAt.transform.position - player.transform.position).normalized);
+        target.LookAt(targetLookAt.transform);
+
         while (currentTime < lerpTime) {
-            player.transform.position = Vector3.Lerp(startPosition, targetPosition,currentTime/lerpTime);
-            player.transform.rotation = Quaternion.Slerp(startRotation, targetLookRotation, currentTime / lerpTime);
+            player.transform.position = Vector3.Lerp(startPosition, target.position,currentTime/lerpTime);
+            player.transform.rotation = Quaternion.Slerp(startRotation, target.rotation, currentTime / lerpTime);
             yield return null;
             currentTime += Time.deltaTime;
                 }

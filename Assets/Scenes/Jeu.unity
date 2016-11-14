@@ -22848,7 +22848,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Question: {fileID: 1973782376}
-  Activated: 1
+  Activated: 0
   toActivate: {fileID: 1390360858}
 --- !u!4 &554976691
 Transform:
@@ -27473,9 +27473,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   targetToActivate: {fileID: 0}
-  targetPosition: {x: 244.053, y: 1.64, z: 16.26658}
+  target: {fileID: 658345037}
   targetLookAt: {fileID: 554976689}
   lerpTime: 3
+  handler: {fileID: 554976690}
 --- !u!65 &650201320
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28061,6 +28062,34 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 658138054}
   m_Mesh: {fileID: 4300022, guid: 1ce4fd58e1a6d6949bf5017ebcd25bc8, type: 3}
+--- !u!1 &658345036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 658345037}
+  m_Layer: 0
+  m_Name: Pop
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &658345037
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 658345036}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 7.53, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_Children: []
+  m_Father: {fileID: 650201317}
+  m_RootOrder: 1
 --- !u!1 &660273896
 GameObject:
   m_ObjectHideFlags: 0
@@ -86353,6 +86382,11 @@ Prefab:
         type: 2}
       propertyPath: m_UseHeadBob
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114000010102229442, guid: a79d3edf89977864aad96fbf1c9c83c8,
+        type: 2}
+      propertyPath: allowMoving
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a79d3edf89977864aad96fbf1c9c83c8, type: 2}

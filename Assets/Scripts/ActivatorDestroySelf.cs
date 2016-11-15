@@ -8,6 +8,7 @@ public class ActivatorDestroySelf : GameActivator
 	public override void OnActivate(){
 		base.OnActivate();
 		DestroyImmediate(gameObject);
-        itemToActivate.SetActive(true);
+        if(itemToActivate)
+            itemToActivate.SetActive(true);
 	}
 }

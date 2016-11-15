@@ -6,9 +6,16 @@ public class Door : MonoBehaviour {
     public GameObject roomToActivate;
     public GameObject pointLight;
 
+    void Start()
+    {
+
+    }
+
 	void OnTriggerEnter()
     {
         anim.SetBool("Open", true);
+        AkSoundEngine.PostEvent("Room_Clock_Stop", gameObject);
+        AkSoundEngine.PostEvent("Room_Door_Open", gameObject);
 
         if (roomToActivate != null)
         {

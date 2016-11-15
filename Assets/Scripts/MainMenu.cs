@@ -5,6 +5,11 @@ public class MainMenu : MonoBehaviour {
 
     public string targetScene;
 
+    void Start()
+    {
+        Cursor.visible = true;
+    }
+
     public void Credit()
     {
         UnityEngine.SceneManagement.SceneManager.LoadScene("Credits");

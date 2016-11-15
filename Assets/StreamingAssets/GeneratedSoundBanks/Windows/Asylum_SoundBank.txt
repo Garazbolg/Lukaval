@@ -1,0 +1,125 @@
+Event	ID	Name			Wwise Object Path	Notes
+	32635506	Metro_Door_Close			\Default Work Unit\Metro\Metro_Door_Close	
+	56199791	Room_Clock			\Default Work Unit\Room\Room_Clock	
+	129264565	Cuisine_Door_Close			\Default Work Unit\Cuisine\Cuisine_Door_Close	
+	149736707	Cuisine_Drop			\Default Work Unit\Cuisine\Cuisine_Drop	
+	245165734	Metro_Door_Open			\Default Work Unit\Metro\Metro_Door_Open	
+	340963834	Cuisine_WachingMachine			\Default Work Unit\Cuisine\Cuisine_WachingMachine	
+	453794714	Room_Gun_Load			\Default Work Unit\Room\Room_Gun_Load	
+	467838998	Pick_Up			\Default Work Unit\Pick_Up	
+	537735884	Grenier_Stop			\Default Work Unit\Grenier\Grenier_Stop	
+	654163887	Grenier_Door_Open			\Default Work Unit\Grenier\Grenier_Door_Open	
+	900698716	Cuisine_Stop			\Default Work Unit\Cuisine\Cuisine_Stop	
+	1122699712	Metro_Flicker_Stop			\Default Work Unit\Metro\Metro_Flicker_Stop	
+	1202249939	BabyStart			\Default Work Unit\Baby\BabyStart	
+	1209317802	Room_Door_Close			\Default Work Unit\Room\Room_Door_Close	
+	1221876916	BabyAppear2			\Default Work Unit\Baby\BabyAppear2	
+	1221876917	BabyAppear3			\Default Work Unit\Baby\BabyAppear3	
+	1221876919	BabyAppear1			\Default Work Unit\Baby\BabyAppear1	
+	1237051726	Room_Door_Open			\Default Work Unit\Room\Room_Door_Open	
+	1445134593	Interogatoire_Door_Open			\Default Work Unit\Interogatoire\Interogatoire_Door_Open	
+	1498502975	Cuisine_Fridge			\Default Work Unit\Cuisine\Cuisine_Fridge	
+	1515056899	BabyAppear2_			\Default Work Unit\Baby\BabyAppear2_	
+	1520834128	NoteMetro			\Default Work Unit\Metro\NoteMetro	
+	1531834544	BabyAppear3_			\Default Work Unit\Baby\BabyAppear3_	
+	1565389898	BabyAppear1_			\Default Work Unit\Baby\BabyAppear1_	
+	1596780639	Cuisine_Door_Open			\Default Work Unit\Cuisine\Cuisine_Door_Open	
+	1637147123	Metro_Door_Open_Out			\Default Work Unit\Metro\Metro_Door_Open_Out	
+	1749414490	Room_Clock_Stop			\Default Work Unit\Room\Room_Clock_Stop	
+	1749427384	Room_Ambiance2_Low			\Default Work Unit\Room\Room_Ambiance2_Low	
+	1804752455	Room_Stop			\Default Work Unit\Room\Room_Stop	
+	1857214711	Room_Door_Open_Final			\Default Work Unit\Room\Room_Door_Open_Final	
+	2086033659	BabyCry_Catch			\Default Work Unit\Baby\BabyCry_Catch	
+	2103112175	Room_Gun_Pick_Up			\Default Work Unit\Room\Room_Gun_Pick_Up	
+	2234712525	Interogatoire_Fan			\Default Work Unit\Interogatoire\Interogatoire_Fan	
+	2297710757	Grenier_Door_Close			\Default Work Unit\Grenier\Grenier_Door_Close	
+	2494077663	Cuisine_Knife			\Default Work Unit\Cuisine\Cuisine_Knife	
+	2558878391	Interogatoire_Door_Close			\Default Work Unit\Interogatoire\Interogatoire_Door_Close	
+	2714600614	Room_Ambiance4_Low			\Default Work Unit\Room\Room_Ambiance4_Low	
+	2725633440	Metro			\Default Work Unit\Metro\Metro	
+	2859471027	Cuisine_Drawer			\Default Work Unit\Cuisine\Cuisine_Drawer	
+	2963010733	Metro_Light			\Default Work Unit\Metro\Metro_Light	
+	2976775554	Room_Gun_Shot			\Default Work Unit\Room\Room_Gun_Shot	
+	3182455441	BabyStop			\Default Work Unit\Baby\BabyStop	
+	3274445517	Metro_Flicker			\Default Work Unit\Metro\Metro_Flicker	
+	3389541263	Metro_Stop			\Default Work Unit\Metro\Metro_Stop	
+	3443103592	BabyDesappear			\Default Work Unit\Baby\BabyDesappear	
+	3539625785	Grenier			\Default Work Unit\Grenier\Grenier	
+	3637504889	Room_Ambiance3_Low			\Default Work Unit\Room\Room_Ambiance3_Low	
+	3968802026	Interogatoire_Stop			\Default Work Unit\Interogatoire\Interogatoire_Stop	
+	4058976963	Room_Ambiance1_Low			\Default Work Unit\Room\Room_Ambiance1_Low	
+	4170496736	Room_Ambiance1			\Default Work Unit\Room\Room_Ambiance1	
+	4170496738	Room_Ambiance3			\Default Work Unit\Room\Room_Ambiance3	
+	4170496739	Room_Ambiance2			\Default Work Unit\Room\Room_Ambiance2	
+	4170496740	Room_Ambiance5			\Default Work Unit\Room\Room_Ambiance5	
+	4242377147	Room_Door_Open_4			\Default Work Unit\Room\Room_Door_Open_4	
+	4242377148	Room_Door_Open_3			\Default Work Unit\Room\Room_Door_Open_3	
+	4242377149	Room_Door_Open_2			\Default Work Unit\Room\Room_Door_Open_2	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	10166961	Attic1	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Attic1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grenier\Grenier\Attic1		2116944
+	71212975	Flicker2	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Flicker2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metro\Flicker\Flicker2		882144
+	81158697	EarthQuake3	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\EarthQuake3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room\Room3\EarthQuake3		1565696
+	87483738	EarthQuake1	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\EarthQuake1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room\Room3\EarthQuake1		1565692
+	91202343	BabyDesappear	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\BabyDesappear_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Baby\BabyDesappear		1411344
+	98753349	Light3	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Light3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metro\Light\Light3		617544
+	100874262	Fridge3	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Fridge3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cuisine\Fridge\Fridge3		1058544
+	146004515	Metro1	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Metro1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metro\Metro\Metro1		1345196
+	149464615	BabyAppear3	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\BabyAppear3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Baby\BabyAppear3		1411344
+	236233434	Whash1	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Whash1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cuisine\WachingMachine\Whash1		1477584
+	266430761	Drawer2	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Drawer2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cuisine\Drawer\Drawer2		882144
+	279379801	Metro5	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Metro5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metro\Metro\Metro5		2227196
+	281944515	Clock1	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Clock1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room\Clock\Clock1		3175344
+	290434526	BabyCry3	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\BabyCry3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Baby\BabyCry\BabyCry3		1058544
+	295237192	Attic3	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Attic3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grenier\Grenier\Attic3		2293344
+	307752168	Room_Ambiance2_2	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Room_Ambiance2_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room\Room2\Room_Ambiance2_2		1764144
+	320052622	SpotLight	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\SpotLight_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metro\SpotLight		1764144
+	339791967	SpotLightStop	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\SpotLightStop_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metro\SpotLightStop		595492
+	353159742	BabyAppear1	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\BabyAppear1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Baby\BabyAppear1		1411344
+	367642547	Drawer3	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Drawer3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cuisine\Drawer\Drawer3		793944
+	378757228	Metro Door Close	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Metro Door Close_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metro\Metro Door Close		573444
+	387558052	Light2	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Light2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metro\Light\Light2		617544
+	395821263	Drop3	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Drop3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cuisine\Drop\Drop3		970344
+	403003687	Flicker5	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Flicker5_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metro\Flicker\Flicker5		882144
+	411759552	Attic2	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Attic2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grenier\Grenier\Attic2		2116944
+	453381669	HeartBeatFinal	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\HeartFinal_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\HeartBeatFinal		3792744
+	464288846	BabyCry2	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\BabyCry2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Baby\BabyCry\BabyCry2		1058544
+	551122257	Light1	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Light1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metro\Light\Light1		617544
+	581180606	Gun Pick Up	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\GunPickUp_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room\Gun Pick Up		308844
+	587921422	BabyWalk3	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\BabyWalk3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Baby\BabyWalk\BabyWalk3		1058544
+	609823294	Drop1	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Drop1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cuisine\Drop\Drop1		970344
+	625055137	Drawer4	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Drawer4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cuisine\Drawer\Drawer4		793944
+	632332559	BabyWalk1	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\BabyWalk1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Baby\BabyWalk\BabyWalk1		1058544
+	636683088	Flicker6	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Flicker6_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metro\Flicker\Flicker6		882144
+	641689631	Room_Ambiance2_1	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Room_Ambiance2_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room\Room2\Room_Ambiance2_1		1764144
+	642565924	Fan3	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Fan3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interogatoire\Interogatoire_Fan\Fan3		1058544
+	646532926	Room_Ambiance1_3	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Room_Ambiance1_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room\Room1\Room_Ambiance1_3		3175344
+	650890865	Door Close	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Door Close_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room\Door Close		787052
+	663524580	BabyCry1	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\BabyCry1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Baby\BabyCry\BabyCry1		1058544
+	680618220	Gun Shot	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Gun Shot_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room\Gun Shot		1146744
+	688096788	Room_Ambiance1_1	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Room_Ambiance1_1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room\Room1\Room_Ambiance1_1		3175344
+	713715575	Transition	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Transition_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Transition		2469744
+	728278252	Pick Up	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Pick Up_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Pick Up		352944
+	732774035	Metro2	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Metro2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metro\Metro\Metro2		1764144
+	739864341	GunLoad	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\GunLoad_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room\GunLoad		419092
+	759288393	BabyWalk2	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\BabyWalk2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Baby\BabyWalk\BabyWalk2		1058544
+	769474971	Door Open	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Door Open_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room\Door Open		815992
+	783737443	Fan1	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Fan1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interogatoire\Interogatoire_Fan\Fan1		1058544
+	784725279	Fan2	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Fan2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Interogatoire\Interogatoire_Fan\Fan2		1058544
+	802060611	Metro4	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Metro4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metro\Metro\Metro4		1367244
+	816614268	Whash2	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Whash2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cuisine\WachingMachine\Whash2		1698088
+	841716322	Drawer1	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Drawer1_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cuisine\Drawer\Drawer1		793944
+	855756049	Knife	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Knife_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cuisine\Knife		771892
+	885556252	Metro3	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Metro3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metro\Metro\Metro3		1411344
+	901118260	Fridge2	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Fridge2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cuisine\Fridge\Fridge2		1058544
+	915680673	Drop2	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Drop2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cuisine\Drop\Drop2		970344
+	922939906	Whash3	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Whash3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Cuisine\WachingMachine\Whash3		2778536
+	932294395	Room_Ambiance2_3	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Room_Ambiance2_3_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room\Room2\Room_Ambiance2_3		1764144
+	971351172	Room_Ambiance1_2	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Room_Ambiance1_2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room\Room1\Room_Ambiance1_2		3175344
+	989388921	EarthQuake2	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\EarthQuake2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room\Room3\EarthQuake2		1565692
+	989501156	Flicker4	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Flicker4_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metro\Flicker\Flicker4		882144
+	993709351	Metro Door Open	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Metro Door Open_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metro\Metro Door Open		705744
+	1045342710	NoteMetro	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\NoteMetro_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Metro\NoteMetro		1499544
+	1053504330	Clock2	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\Clock2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Room\Clock\Clock2		3175344
+	1058207227	BabyAppear2	C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\SFX\BabyAppear2_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Baby\BabyAppear2		1411344
+

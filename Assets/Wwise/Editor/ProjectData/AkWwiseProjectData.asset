@@ -16,8 +16,8 @@ MonoBehaviour:
   - PhysicalPath: Events\Default Work Unit.wwu
     ParentPhysicalPath: 
     Guid: '{6AF1B377-6470-40DA-BBEE-8BD6C6AFD515}'
-    m_lastTimePsrt1: 1148043264
-    m_lastTimePart2: -1999369257
+    m_lastTimePsrt1: -1452297998
+    m_lastTimePart2: -1999368984
     List:
     - Name: BabyAppear1
       Path: Default Work Unit\Baby\BabyAppear1
@@ -90,6 +90,18 @@ MonoBehaviour:
         ObjectType: 3
       ID: 1531834544
       Guid: 994ef235ab178148b1a9a9f906483ca2
+      maxAttenuation: 0
+    - Name: BabyCry_Catch
+      Path: Default Work Unit\Baby\BabyCry_Catch
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Baby
+        ObjectType: 4
+      - ElementName: BabyCry_Catch
+        ObjectType: 3
+      ID: 2086033659
+      Guid: a3bfb5c856b5bb408b45945a97fb997b
       maxAttenuation: 0
     - Name: BabyDesappear
       Path: Default Work Unit\Baby\BabyDesappear
@@ -199,6 +211,18 @@ MonoBehaviour:
       ID: -1800889633
       Guid: 48d209cd37a4944f8e3c941bf723e908
       maxAttenuation: 0
+    - Name: Cuisine_Stop
+      Path: Default Work Unit\Cuisine\Cuisine_Stop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Cuisine
+        ObjectType: 4
+      - ElementName: Cuisine_Stop
+        ObjectType: 3
+      ID: 900698716
+      Guid: 1bbf12a0394e8841ae94632ede9d407c
+      maxAttenuation: 0
     - Name: Cuisine_WachingMachine
       Path: Default Work Unit\Cuisine\Cuisine_WachingMachine
       PathAndIcons:
@@ -247,6 +271,18 @@ MonoBehaviour:
       ID: 654163887
       Guid: d6008ded8679ce4fba31b51af85848f5
       maxAttenuation: 0
+    - Name: Grenier_Stop
+      Path: Default Work Unit\Grenier\Grenier_Stop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Grenier
+        ObjectType: 4
+      - ElementName: Grenier_Stop
+        ObjectType: 3
+      ID: 537735884
+      Guid: 539ce91d4479c74999fb634f6c736554
+      maxAttenuation: 0
     - Name: Interogatoire_Door_Close
       Path: Default Work Unit\Interogatoire\Interogatoire_Door_Close
       PathAndIcons:
@@ -282,6 +318,18 @@ MonoBehaviour:
         ObjectType: 3
       ID: -2060254771
       Guid: 28d92ef81e50db418444cd6c49b12cec
+      maxAttenuation: 0
+    - Name: Interogatoire_Stop
+      Path: Default Work Unit\Interogatoire\Interogatoire_Stop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Interogatoire
+        ObjectType: 4
+      - ElementName: Interogatoire_Stop
+        ObjectType: 3
+      ID: -326165270
+      Guid: 6612d1bbb03de844bc7dd9df6297a6d8
       maxAttenuation: 0
     - Name: Metro
       Path: Default Work Unit\Metro\Metro
@@ -366,6 +414,18 @@ MonoBehaviour:
         ObjectType: 3
       ID: -1331956563
       Guid: 110b3d5f60cee44fab16d7f9b78af7da
+      maxAttenuation: 0
+    - Name: Metro_Stop
+      Path: Default Work Unit\Metro\Metro_Stop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Metro
+        ObjectType: 4
+      - ElementName: Metro_Stop
+        ObjectType: 3
+      ID: -905426033
+      Guid: b1cfeac7598091449749430c5221b36b
       maxAttenuation: 0
     - Name: NoteMetro
       Path: Default Work Unit\Metro\NoteMetro
@@ -497,6 +557,18 @@ MonoBehaviour:
       ID: 56199791
       Guid: f0b42ef4640c7c4b89596d6aa473bea4
       maxAttenuation: 0
+    - Name: Room_Clock_Stop
+      Path: Default Work Unit\Room\Room_Clock_Stop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Room
+        ObjectType: 4
+      - ElementName: Room_Clock_Stop
+        ObjectType: 3
+      ID: 1749414490
+      Guid: 4cb0e80b29ec7149a88477b45e7daa02
+      maxAttenuation: 0
     - Name: Room_Door_Close
       Path: Default Work Unit\Room\Room_Door_Close
       PathAndIcons:
@@ -605,6 +677,28 @@ MonoBehaviour:
       ID: -1318191742
       Guid: dd3a75f555df344ead0fd97e3dcd7f08
       maxAttenuation: 0
+    - Name: Room_Stop
+      Path: Default Work Unit\Room\Room_Stop
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Room
+        ObjectType: 4
+      - ElementName: Room_Stop
+        ObjectType: 3
+      ID: 1804752455
+      Guid: 8003e225ee2ca94491694176cc0bb239
+      maxAttenuation: 0
+    - Name: Stop_All
+      Path: Default Work Unit\Stop_All
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_All
+        ObjectType: 3
+      ID: 452547817
+      Guid: e36f944db0527f44a0770b00088487e0
+      maxAttenuation: 0
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
     ParentPhysicalPath: 
@@ -646,10 +740,6 @@ MonoBehaviour:
   - /Asylum Jam 2016
   - /Asylum Jam 2016/Events
   - /Asylum Jam 2016/Events/Default Work Unit
-  - /Asylum Jam 2016/Events/Default Work Unit/Cuisine
-  - /Asylum Jam 2016/Events/Default Work Unit/Grenier
-  - /Asylum Jam 2016/Events/Default Work Unit/Interogatoire
-  - /Asylum Jam 2016/Events/Default Work Unit/Metro
   - /Asylum Jam 2016/Events/Default Work Unit/Room
   m_lastPopulateTimePsrt1: 0
   m_lastPopulateTimePart2: 0

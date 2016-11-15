@@ -288,7 +288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5aeac6b34c70d9b4ba4290a6437a6758, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetScene: Chamber
+  targetScene: Jeu
 --- !u!1 &435187235
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,6 +510,8 @@ GameObject:
   - 4: {fileID: 653676010}
   - 114: {fileID: 653676009}
   - 114: {fileID: 653676008}
+  - 114: {fileID: 653676011}
+  - 114: {fileID: 653676012}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -560,6 +562,47 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+--- !u!114 &653676011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 653676007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0346fd938e9d004a99737cdee68dc64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: c07fb1a46848c34a8089c6d85f16ed35
+  bankName: Asylum_SoundBank
+  loadAsynchronous: 0
+  decodeBank: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 
+--- !u!114 &653676012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 653676007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcc6d1208ea99c546bfe357773f7558d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  valueGuid: a87fca6b14a2a743aa9c13ca47afd6cd
+  eventID: -235990333
+  soundEmitterObject: {fileID: 0}
+  enableActionOnEvent: 0
+  actionOnEventType: 0
+  curveInterpolation: 4
+  transitionDuration: 0
+  m_callbackData: {fileID: 0}
+  playingId: 0
 --- !u!1 &798609013
 GameObject:
   m_ObjectHideFlags: 0

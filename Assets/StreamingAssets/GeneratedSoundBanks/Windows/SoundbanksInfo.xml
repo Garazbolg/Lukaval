@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="118">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Garazbolgg\Prog\Projets\GameJams\Asylum Jam 2016\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3661499426" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\Asylum_SoundBank</ObjectPath>
+			<ShortName>Asylum_SoundBank</ShortName>
+			<Path>Asylum_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1221876919" Name="BabyAppear1" ObjectPath="\Events\Default Work Unit\Baby\BabyAppear1"/>
+				<Event Id="1565389898" Name="BabyAppear1_" ObjectPath="\Events\Default Work Unit\Baby\BabyAppear1_"/>
+				<Event Id="1221876916" Name="BabyAppear2" ObjectPath="\Events\Default Work Unit\Baby\BabyAppear2"/>
+				<Event Id="1515056899" Name="BabyAppear2_" ObjectPath="\Events\Default Work Unit\Baby\BabyAppear2_"/>
+				<Event Id="1221876917" Name="BabyAppear3" ObjectPath="\Events\Default Work Unit\Baby\BabyAppear3"/>
+				<Event Id="1531834544" Name="BabyAppear3_" ObjectPath="\Events\Default Work Unit\Baby\BabyAppear3_"/>
+				<Event Id="2086033659" Name="BabyCry_Catch" ObjectPath="\Events\Default Work Unit\Baby\BabyCry_Catch"/>
+				<Event Id="3443103592" Name="BabyDesappear" ObjectPath="\Events\Default Work Unit\Baby\BabyDesappear"/>
+				<Event Id="1202249939" Name="BabyStart" ObjectPath="\Events\Default Work Unit\Baby\BabyStart"/>
+				<Event Id="3182455441" Name="BabyStop" ObjectPath="\Events\Default Work Unit\Baby\BabyStop"/>
+				<Event Id="129264565" Name="Cuisine_Door_Close" ObjectPath="\Events\Default Work Unit\Cuisine\Cuisine_Door_Close"/>
+				<Event Id="1596780639" Name="Cuisine_Door_Open" ObjectPath="\Events\Default Work Unit\Cuisine\Cuisine_Door_Open"/>
+				<Event Id="2859471027" Name="Cuisine_Drawer" ObjectPath="\Events\Default Work Unit\Cuisine\Cuisine_Drawer"/>
+				<Event Id="149736707" Name="Cuisine_Drop" ObjectPath="\Events\Default Work Unit\Cuisine\Cuisine_Drop"/>
+				<Event Id="1498502975" Name="Cuisine_Fridge" ObjectPath="\Events\Default Work Unit\Cuisine\Cuisine_Fridge"/>
+				<Event Id="2494077663" Name="Cuisine_Knife" ObjectPath="\Events\Default Work Unit\Cuisine\Cuisine_Knife"/>
+				<Event Id="900698716" Name="Cuisine_Stop" ObjectPath="\Events\Default Work Unit\Cuisine\Cuisine_Stop"/>
+				<Event Id="340963834" Name="Cuisine_WachingMachine" ObjectPath="\Events\Default Work Unit\Cuisine\Cuisine_WachingMachine"/>
+				<Event Id="3539625785" Name="Grenier" ObjectPath="\Events\Default Work Unit\Grenier\Grenier"/>
+				<Event Id="2297710757" Name="Grenier_Door_Close" ObjectPath="\Events\Default Work Unit\Grenier\Grenier_Door_Close"/>
+				<Event Id="654163887" Name="Grenier_Door_Open" ObjectPath="\Events\Default Work Unit\Grenier\Grenier_Door_Open"/>
+				<Event Id="537735884" Name="Grenier_Stop" ObjectPath="\Events\Default Work Unit\Grenier\Grenier_Stop"/>
+				<Event Id="2558878391" Name="Interogatoire_Door_Close" ObjectPath="\Events\Default Work Unit\Interogatoire\Interogatoire_Door_Close"/>
+				<Event Id="1445134593" Name="Interogatoire_Door_Open" ObjectPath="\Events\Default Work Unit\Interogatoire\Interogatoire_Door_Open"/>
+				<Event Id="2234712525" Name="Interogatoire_Fan" ObjectPath="\Events\Default Work Unit\Interogatoire\Interogatoire_Fan"/>
+				<Event Id="3968802026" Name="Interogatoire_Stop" ObjectPath="\Events\Default Work Unit\Interogatoire\Interogatoire_Stop"/>
+				<Event Id="2725633440" Name="Metro" ObjectPath="\Events\Default Work Unit\Metro\Metro"/>
+				<Event Id="32635506" Name="Metro_Door_Close" ObjectPath="\Events\Default Work Unit\Metro\Metro_Door_Close"/>
+				<Event Id="245165734" Name="Metro_Door_Open" ObjectPath="\Events\Default Work Unit\Metro\Metro_Door_Open"/>
+				<Event Id="1637147123" Name="Metro_Door_Open_Out" ObjectPath="\Events\Default Work Unit\Metro\Metro_Door_Open_Out"/>
+				<Event Id="3274445517" Name="Metro_Flicker" ObjectPath="\Events\Default Work Unit\Metro\Metro_Flicker"/>
+				<Event Id="1122699712" Name="Metro_Flicker_Stop" ObjectPath="\Events\Default Work Unit\Metro\Metro_Flicker_Stop"/>
+				<Event Id="2963010733" Name="Metro_Light" ObjectPath="\Events\Default Work Unit\Metro\Metro_Light"/>
+				<Event Id="3389541263" Name="Metro_Stop" ObjectPath="\Events\Default Work Unit\Metro\Metro_Stop"/>
+				<Event Id="1520834128" Name="NoteMetro" ObjectPath="\Events\Default Work Unit\Metro\NoteMetro"/>
+				<Event Id="467838998" Name="Pick_Up" ObjectPath="\Events\Default Work Unit\Pick_Up"/>
+				<Event Id="4170496736" Name="Room_Ambiance1" ObjectPath="\Events\Default Work Unit\Room\Room_Ambiance1"/>
+				<Event Id="4058976963" Name="Room_Ambiance1_Low" ObjectPath="\Events\Default Work Unit\Room\Room_Ambiance1_Low"/>
+				<Event Id="4170496739" Name="Room_Ambiance2" ObjectPath="\Events\Default Work Unit\Room\Room_Ambiance2"/>
+				<Event Id="1749427384" Name="Room_Ambiance2_Low" ObjectPath="\Events\Default Work Unit\Room\Room_Ambiance2_Low"/>
+				<Event Id="4170496738" Name="Room_Ambiance3" ObjectPath="\Events\Default Work Unit\Room\Room_Ambiance3"/>
+				<Event Id="3637504889" Name="Room_Ambiance3_Low" ObjectPath="\Events\Default Work Unit\Room\Room_Ambiance3_Low"/>
+				<Event Id="2714600614" Name="Room_Ambiance4_Low" ObjectPath="\Events\Default Work Unit\Room\Room_Ambiance4_Low"/>
+				<Event Id="4170496740" Name="Room_Ambiance5" ObjectPath="\Events\Default Work Unit\Room\Room_Ambiance5"/>
+				<Event Id="56199791" Name="Room_Clock" ObjectPath="\Events\Default Work Unit\Room\Room_Clock"/>
+				<Event Id="1749414490" Name="Room_Clock_Stop" ObjectPath="\Events\Default Work Unit\Room\Room_Clock_Stop"/>
+				<Event Id="1209317802" Name="Room_Door_Close" ObjectPath="\Events\Default Work Unit\Room\Room_Door_Close"/>
+				<Event Id="1237051726" Name="Room_Door_Open" ObjectPath="\Events\Default Work Unit\Room\Room_Door_Open"/>
+				<Event Id="4242377149" Name="Room_Door_Open_2" ObjectPath="\Events\Default Work Unit\Room\Room_Door_Open_2"/>
+				<Event Id="4242377148" Name="Room_Door_Open_3" ObjectPath="\Events\Default Work Unit\Room\Room_Door_Open_3"/>
+				<Event Id="4242377147" Name="Room_Door_Open_4" ObjectPath="\Events\Default Work Unit\Room\Room_Door_Open_4"/>
+				<Event Id="1857214711" Name="Room_Door_Open_Final" ObjectPath="\Events\Default Work Unit\Room\Room_Door_Open_Final"/>
+				<Event Id="453794714" Name="Room_Gun_Load" ObjectPath="\Events\Default Work Unit\Room\Room_Gun_Load"/>
+				<Event Id="2103112175" Name="Room_Gun_Pick_Up" ObjectPath="\Events\Default Work Unit\Room\Room_Gun_Pick_Up"/>
+				<Event Id="2976775554" Name="Room_Gun_Shot" ObjectPath="\Events\Default Work Unit\Room\Room_Gun_Shot"/>
+				<Event Id="1804752455" Name="Room_Stop" ObjectPath="\Events\Default Work Unit\Room\Room_Stop"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="10166961" Language="SFX">
+					<ShortName>Attic1.wav</ShortName>
+					<Path>SFX\Attic1_9E69E797.wem</Path>
+				</File>
+				<File Id="71212975" Language="SFX">
+					<ShortName>Flicker2.wav</ShortName>
+					<Path>SFX\Flicker2_9E69E797.wem</Path>
+				</File>
+				<File Id="81158697" Language="SFX">
+					<ShortName>EarthQuake3.wav</ShortName>
+					<Path>SFX\EarthQuake3_9E69E797.wem</Path>
+				</File>
+				<File Id="87483738" Language="SFX">
+					<ShortName>EarthQuake1.wav</ShortName>
+					<Path>SFX\EarthQuake1_9E69E797.wem</Path>
+				</File>
+				<File Id="91202343" Language="SFX">
+					<ShortName>BabyDesappear.wav</ShortName>
+					<Path>SFX\BabyDesappear_9E69E797.wem</Path>
+				</File>
+				<File Id="98753349" Language="SFX">
+					<ShortName>Light3.wav</ShortName>
+					<Path>SFX\Light3_9E69E797.wem</Path>
+				</File>
+				<File Id="100874262" Language="SFX">
+					<ShortName>Fridge3.wav</ShortName>
+					<Path>SFX\Fridge3_9E69E797.wem</Path>
+				</File>
+				<File Id="146004515" Language="SFX">
+					<ShortName>Metro1.wav</ShortName>
+					<Path>SFX\Metro1_9E69E797.wem</Path>
+				</File>
+				<File Id="149464615" Language="SFX">
+					<ShortName>BabyAppear3.wav</ShortName>
+					<Path>SFX\BabyAppear3_9E69E797.wem</Path>
+				</File>
+				<File Id="236233434" Language="SFX">
+					<ShortName>Whash1.wav</ShortName>
+					<Path>SFX\Whash1_9E69E797.wem</Path>
+				</File>
+				<File Id="266430761" Language="SFX">
+					<ShortName>Drawer2.wav</ShortName>
+					<Path>SFX\Drawer2_9E69E797.wem</Path>
+				</File>
+				<File Id="279379801" Language="SFX">
+					<ShortName>Metro5.wav</ShortName>
+					<Path>SFX\Metro5_9E69E797.wem</Path>
+				</File>
+				<File Id="281944515" Language="SFX">
+					<ShortName>Clock1.wav</ShortName>
+					<Path>SFX\Clock1_9E69E797.wem</Path>
+				</File>
+				<File Id="290434526" Language="SFX">
+					<ShortName>BabyCry3.wav</ShortName>
+					<Path>SFX\BabyCry3_9E69E797.wem</Path>
+				</File>
+				<File Id="295237192" Language="SFX">
+					<ShortName>Attic3.wav</ShortName>
+					<Path>SFX\Attic3_9E69E797.wem</Path>
+				</File>
+				<File Id="307752168" Language="SFX">
+					<ShortName>Room_Ambiance2_2.wav</ShortName>
+					<Path>SFX\Room_Ambiance2_2_9E69E797.wem</Path>
+				</File>
+				<File Id="320052622" Language="SFX">
+					<ShortName>SpotLight.wav</ShortName>
+					<Path>SFX\SpotLight_9E69E797.wem</Path>
+				</File>
+				<File Id="339791967" Language="SFX">
+					<ShortName>SpotLightStop.wav</ShortName>
+					<Path>SFX\SpotLightStop_9E69E797.wem</Path>
+				</File>
+				<File Id="353159742" Language="SFX">
+					<ShortName>BabyAppear1.wav</ShortName>
+					<Path>SFX\BabyAppear1_9E69E797.wem</Path>
+				</File>
+				<File Id="367642547" Language="SFX">
+					<ShortName>Drawer3.wav</ShortName>
+					<Path>SFX\Drawer3_9E69E797.wem</Path>
+				</File>
+				<File Id="378757228" Language="SFX">
+					<ShortName>Metro Door Close.wav</ShortName>
+					<Path>SFX\Metro Door Close_9E69E797.wem</Path>
+				</File>
+				<File Id="387558052" Language="SFX">
+					<ShortName>Light2.wav</ShortName>
+					<Path>SFX\Light2_9E69E797.wem</Path>
+				</File>
+				<File Id="395821263" Language="SFX">
+					<ShortName>Drop3.wav</ShortName>
+					<Path>SFX\Drop3_9E69E797.wem</Path>
+				</File>
+				<File Id="403003687" Language="SFX">
+					<ShortName>Flicker5.wav</ShortName>
+					<Path>SFX\Flicker5_9E69E797.wem</Path>
+				</File>
+				<File Id="411759552" Language="SFX">
+					<ShortName>Attic2.wav</ShortName>
+					<Path>SFX\Attic2_9E69E797.wem</Path>
+				</File>
+				<File Id="453381669" Language="SFX">
+					<ShortName>HeartFinal.wav</ShortName>
+					<Path>SFX\HeartFinal_9E69E797.wem</Path>
+				</File>
+				<File Id="464288846" Language="SFX">
+					<ShortName>BabyCry2.wav</ShortName>
+					<Path>SFX\BabyCry2_9E69E797.wem</Path>
+				</File>
+				<File Id="551122257" Language="SFX">
+					<ShortName>Light1.wav</ShortName>
+					<Path>SFX\Light1_9E69E797.wem</Path>
+				</File>
+				<File Id="581180606" Language="SFX">
+					<ShortName>GunPickUp.wav</ShortName>
+					<Path>SFX\GunPickUp_9E69E797.wem</Path>
+				</File>
+				<File Id="587921422" Language="SFX">
+					<ShortName>BabyWalk3.wav</ShortName>
+					<Path>SFX\BabyWalk3_9E69E797.wem</Path>
+				</File>
+				<File Id="609823294" Language="SFX">
+					<ShortName>Drop1.wav</ShortName>
+					<Path>SFX\Drop1_9E69E797.wem</Path>
+				</File>
+				<File Id="625055137" Language="SFX">
+					<ShortName>Drawer4.wav</ShortName>
+					<Path>SFX\Drawer4_9E69E797.wem</Path>
+				</File>
+				<File Id="632332559" Language="SFX">
+					<ShortName>BabyWalk1.wav</ShortName>
+					<Path>SFX\BabyWalk1_9E69E797.wem</Path>
+				</File>
+				<File Id="636683088" Language="SFX">
+					<ShortName>Flicker6.wav</ShortName>
+					<Path>SFX\Flicker6_9E69E797.wem</Path>
+				</File>
+				<File Id="641689631" Language="SFX">
+					<ShortName>Room_Ambiance2_1.wav</ShortName>
+					<Path>SFX\Room_Ambiance2_1_9E69E797.wem</Path>
+				</File>
+				<File Id="642565924" Language="SFX">
+					<ShortName>Fan3.wav</ShortName>
+					<Path>SFX\Fan3_9E69E797.wem</Path>
+				</File>
+				<File Id="646532926" Language="SFX">
+					<ShortName>Room_Ambiance1_3.wav</ShortName>
+					<Path>SFX\Room_Ambiance1_3_9E69E797.wem</Path>
+				</File>
+				<File Id="650890865" Language="SFX">
+					<ShortName>Door Close.wav</ShortName>
+					<Path>SFX\Door Close_9E69E797.wem</Path>
+				</File>
+				<File Id="663524580" Language="SFX">
+					<ShortName>BabyCry1.wav</ShortName>
+					<Path>SFX\BabyCry1_9E69E797.wem</Path>
+				</File>
+				<File Id="680618220" Language="SFX">
+					<ShortName>Gun Shot.wav</ShortName>
+					<Path>SFX\Gun Shot_9E69E797.wem</Path>
+				</File>
+				<File Id="688096788" Language="SFX">
+					<ShortName>Room_Ambiance1_1.wav</ShortName>
+					<Path>SFX\Room_Ambiance1_1_9E69E797.wem</Path>
+				</File>
+				<File Id="713715575" Language="SFX">
+					<ShortName>Transition.wav</ShortName>
+					<Path>SFX\Transition_9E69E797.wem</Path>
+				</File>
+				<File Id="728278252" Language="SFX">
+					<ShortName>Pick Up.wav</ShortName>
+					<Path>SFX\Pick Up_9E69E797.wem</Path>
+				</File>
+				<File Id="732774035" Language="SFX">
+					<ShortName>Metro2.wav</ShortName>
+					<Path>SFX\Metro2_9E69E797.wem</Path>
+				</File>
+				<File Id="739864341" Language="SFX">
+					<ShortName>GunLoad.wav</ShortName>
+					<Path>SFX\GunLoad_9E69E797.wem</Path>
+				</File>
+				<File Id="759288393" Language="SFX">
+					<ShortName>BabyWalk2.wav</ShortName>
+					<Path>SFX\BabyWalk2_9E69E797.wem</Path>
+				</File>
+				<File Id="769474971" Language="SFX">
+					<ShortName>Door Open.wav</ShortName>
+					<Path>SFX\Door Open_9E69E797.wem</Path>
+				</File>
+				<File Id="783737443" Language="SFX">
+					<ShortName>Fan1.wav</ShortName>
+					<Path>SFX\Fan1_9E69E797.wem</Path>
+				</File>
+				<File Id="784725279" Language="SFX">
+					<ShortName>Fan2.wav</ShortName>
+					<Path>SFX\Fan2_9E69E797.wem</Path>
+				</File>
+				<File Id="802060611" Language="SFX">
+					<ShortName>Metro4.wav</ShortName>
+					<Path>SFX\Metro4_9E69E797.wem</Path>
+				</File>
+				<File Id="816614268" Language="SFX">
+					<ShortName>Whash2.wav</ShortName>
+					<Path>SFX\Whash2_9E69E797.wem</Path>
+				</File>
+				<File Id="841716322" Language="SFX">
+					<ShortName>Drawer1.wav</ShortName>
+					<Path>SFX\Drawer1_9E69E797.wem</Path>
+				</File>
+				<File Id="855756049" Language="SFX">
+					<ShortName>Knife.wav</ShortName>
+					<Path>SFX\Knife_9E69E797.wem</Path>
+				</File>
+				<File Id="885556252" Language="SFX">
+					<ShortName>Metro3.wav</ShortName>
+					<Path>SFX\Metro3_9E69E797.wem</Path>
+				</File>
+				<File Id="901118260" Language="SFX">
+					<ShortName>Fridge2.wav</ShortName>
+					<Path>SFX\Fridge2_9E69E797.wem</Path>
+				</File>
+				<File Id="915680673" Language="SFX">
+					<ShortName>Drop2.wav</ShortName>
+					<Path>SFX\Drop2_9E69E797.wem</Path>
+				</File>
+				<File Id="922939906" Language="SFX">
+					<ShortName>Whash3.wav</ShortName>
+					<Path>SFX\Whash3_9E69E797.wem</Path>
+				</File>
+				<File Id="932294395" Language="SFX">
+					<ShortName>Room_Ambiance2_3.wav</ShortName>
+					<Path>SFX\Room_Ambiance2_3_9E69E797.wem</Path>
+				</File>
+				<File Id="971351172" Language="SFX">
+					<ShortName>Room_Ambiance1_2.wav</ShortName>
+					<Path>SFX\Room_Ambiance1_2_9E69E797.wem</Path>
+				</File>
+				<File Id="989388921" Language="SFX">
+					<ShortName>EarthQuake2.wav</ShortName>
+					<Path>SFX\EarthQuake2_9E69E797.wem</Path>
+				</File>
+				<File Id="989501156" Language="SFX">
+					<ShortName>Flicker4.wav</ShortName>
+					<Path>SFX\Flicker4_9E69E797.wem</Path>
+				</File>
+				<File Id="993709351" Language="SFX">
+					<ShortName>Metro Door Open.wav</ShortName>
+					<Path>SFX\Metro Door Open_9E69E797.wem</Path>
+				</File>
+				<File Id="1045342710" Language="SFX">
+					<ShortName>NoteMetro.wav</ShortName>
+					<Path>SFX\NoteMetro_9E69E797.wem</Path>
+				</File>
+				<File Id="1053504330" Language="SFX">
+					<ShortName>Clock2.wav</ShortName>
+					<Path>SFX\Clock2_9E69E797.wem</Path>
+				</File>
+				<File Id="1058207227" Language="SFX">
+					<ShortName>BabyAppear2.wav</ShortName>
+					<Path>SFX\BabyAppear2_9E69E797.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

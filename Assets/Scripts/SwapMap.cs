@@ -8,10 +8,15 @@ public class SwapMap : MonoBehaviour {
     public GameObject nextDoor;
     public GameObject lightForAttic;
 
+    public string SoundEvent = "";
+
     void OnTriggerEnter(Collider other)
     {
-        if(toKillScene != null)
-            toKillScene.SetActive(false);
+        if (toKillScene != null)
+            Destroy(toKillScene);//.SetActive(false);
+
+        if (SoundEvent.CompareTo("") != 0)
+            AkSoundEngine.PostEvent(SoundEvent, gameObject);
 
         if (nextScene != null)
         {

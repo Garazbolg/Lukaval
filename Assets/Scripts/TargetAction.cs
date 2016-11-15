@@ -8,7 +8,7 @@ public class TargetAction : MonoBehaviour{
     public GameObject pausePrefab;
 
     public float range = 2;
-	public GameObject interactUI;
+	//public GameObject interactUI;
 
     private Renderer lastRenderer = null;
     private Material lastMaterial = null;
@@ -54,11 +54,11 @@ public class TargetAction : MonoBehaviour{
                 }
             }
 			else{
-				interactUI.SetActive(true);
+				//interactUI.SetActive(true);
 			}
 		}
 		else{
-			interactUI.SetActive(false);
+			//interactUI.SetActive(false);
             if (lastRenderer)
             {
                 lastRenderer.material = lastMaterial;

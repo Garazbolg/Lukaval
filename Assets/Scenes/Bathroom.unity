@@ -646,7 +646,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   pausePrefab: {fileID: 171826, guid: 58da435d1c50f79499eeac779fcd46c3, type: 2}
   range: 2
-  interactUI: {fileID: 0}
   outlineMaterial: {fileID: 2100000, guid: 9e7721e4363ea96439a601397890dd8f, type: 2}
 --- !u!114 &352321068
 MonoBehaviour:
@@ -1810,6 +1809,10 @@ Prefab:
     - target: {fileID: 95000014014548564, guid: 3e1a35c574c1801498724fa5f453181a,
         type: 2}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010809601190, guid: 3e1a35c574c1801498724fa5f453181a, type: 2}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

@@ -146,7 +146,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d3d5161d44e7d42bcb884b7def0d17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.075
+  speed: 10
   popSpot: {fileID: 1697724657}
   audioSource: {fileID: 0}
 --- !u!108 &2770140
@@ -3955,7 +3955,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d3d5161d44e7d42bcb884b7def0d17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.075
+  speed: 10
   popSpot: {fileID: 1697724657}
   audioSource: {fileID: 0}
 --- !u!108 &1144312789
@@ -4621,7 +4621,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d3d5161d44e7d42bcb884b7def0d17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.075
+  speed: 10
   popSpot: {fileID: 215621553}
   audioSource: {fileID: 397425010}
 --- !u!108 &1316687826
@@ -5852,7 +5852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46d3d5161d44e7d42bcb884b7def0d17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0.075
+  speed: 10
   popSpot: {fileID: 215621553}
   audioSource: {fileID: 1436108384}
 --- !u!108 &1688163380

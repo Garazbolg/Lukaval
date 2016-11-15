@@ -13,6 +13,7 @@ public class StoreScale : MonoBehaviour {
     void Start ()
     {
         originScale = transform.localScale;
+        Show(false);
 	}
 	
 	public void Show(bool show)

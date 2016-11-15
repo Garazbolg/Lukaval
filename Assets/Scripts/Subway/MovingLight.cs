@@ -15,7 +15,7 @@ public class MovingLight : MonoBehaviour {
 
 	void Update ()
     {
-        transform.position -= speed * transform.forward;
+        transform.position -= speed * transform.forward * Time.deltaTime;
 	}
 
     void OnTriggerEnter(Collider other)
@@ -42,11 +42,11 @@ public class MovingLight : MonoBehaviour {
 
     private void ShowObject(Collider obj, bool show)
     {
-        StoreScale store = obj.transform.GetComponent<StoreScale>();
+        StoreScale store = obj.GetComponent<StoreScale>();
         store.Show(show);
 
         /*
-        MeshRenderer render = obj.transform.GetComponentInChildren<MeshRenderer>();
+        MeshRenderer render = obj.GetComponentInChildren<MeshRenderer>();
         float scale = (show) ? 1 : 0;
 
         if (render != null)
